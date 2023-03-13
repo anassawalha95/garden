@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Brandon Boswell</title><link>https://anassawalha95.github.io/garden/</link><description>Recent content from Brandon Boswell's Digital Garden</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://anassawalha95.github.io/garden/index.xml" rel="self" type="application/rss+xml"/><item><title>editing</title><link>https://anassawalha95.github.io/garden/notes/editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/editing/</guid><description>Editing Quartz runs on top of Hugo so all notes are written in Markdown.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Brandon Boswell</title><link>/</link><description>Recent content from Brandon Boswell's Digital Garden</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>editing</title><link>/notes/editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/editing/</guid><description>Editing Quartz runs on top of Hugo so all notes are written in Markdown.
 Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</description><content:encoded><![CDATA[<h2 id="editing">Editing</h2>
 <p>Quartz runs on top of 
-
-<a target=“_blank” href="https://gohugo.io/" rel="noopener">Hugo</a> so all notes are written in 
-
-<a target=“_blank” href="https://www.markdownguide.org/getting-started/" rel="noopener">Markdown</a>.</p>
+<a href="https://gohugo.io/" rel="noopener">Hugo</a> so all notes are written in 
+<a href="https://www.markdownguide.org/getting-started/" rel="noopener">Markdown</a>.</p>
 <h3 id="folder-structure">Folder Structure</h3>
 <p>Here&rsquo;s a rough overview of what&rsquo;s what.</p>
 <p><strong>All content in your garden can found in the <code>/content</code> folder.</strong> To make edits, you can open any of the files and make changes directly and save it. You can organize content into any folder you&rsquo;d like.</p>
@@ -56,8 +54,7 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
 </div>
 </div><h3 id="obsidian">Obsidian</h3>
 <p>I recommend using 
-
-<a target=“_blank” href="http://obsidian.md/" rel="noopener">Obsidian</a> as a way to edit and grow your digital garden. It comes with a really nice editor and graphical interface to preview all of your local files.</p>
+<a href="http://obsidian.md/" rel="noopener">Obsidian</a> as a way to edit and grow your digital garden. It comes with a really nice editor and graphical interface to preview all of your local files.</p>
 <p>This step is <strong>highly recommended</strong>.</p>
 <blockquote>
 <p>🔗 Step 3: 
@@ -110,12 +107,11 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
   href="/notes/troubleshooting/"
   rel="noopener" class="internal-link"
   data-src="/notes/troubleshooting/">FAQ and Troubleshooting guide</a>.</p>
-]]></content:encoded></item><item><title>obsidian</title><link>https://anassawalha95.github.io/garden/notes/obsidian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/obsidian/</guid><description>Setup Obsidian is the preferred way to use Quartz. You can either create a new Obsidian Vault or link one that your already have.</description><content:encoded><![CDATA[<h2 id="setup">Setup</h2>
+]]></content:encoded></item><item><title>obsidian</title><link>/notes/obsidian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/obsidian/</guid><description>Setup Obsidian is the preferred way to use Quartz. You can either create a new Obsidian Vault or link one that your already have.</description><content:encoded><![CDATA[<h2 id="setup">Setup</h2>
 <p>Obsidian is the preferred way to use Quartz. You can either create a new Obsidian Vault or link one that your already have.</p>
 <h3 id="new-vault">New Vault</h3>
 <p>If you don&rsquo;t have an existing Vault, 
-
-<a target=“_blank” href="https://obsidian.md/" rel="noopener">download Obsidian</a> and create a new Vault in the <code>/content</code> folder that you created and cloned during the 
+<a href="https://obsidian.md/" rel="noopener">download Obsidian</a> and create a new Vault in the <code>/content</code> folder that you created and cloned during the 
 
 
 
@@ -134,7 +130,10 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
 <li>Set the <strong>New link format</strong> to <strong>Absolute Path in vault</strong>.</li>
 <li>Turn <strong>on</strong> the <strong>Automatically update internal links</strong> setting.</li>
 </ol>
-<p><img src="/notes//notes/images/obsidian-settings.png" alt="Obsidian Settings"/><em>Obsidian Settings</em></p>
+<p>
+
+
+<img src="/notes/images/obsidian-settings.png" width="auto" alt="Obsidian Settings"  /><em>Obsidian Settings</em></p>
 <h2 id="templates">Templates</h2>
 <p>Inserting front matter everytime you want to create a new Note gets annoying really quickly. Luckily, Obsidian supports templates which makes inserting new content really easily.</p>
 <p><strong>If you decide to overwrite the <code>/content</code> folder completely, don&rsquo;t remove the <code>/content/templates</code> folder!</strong></p>
@@ -151,12 +150,11 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
   rel="noopener" class="internal-link"
   data-src="/notes/preview-changes/">Preview Quartz Changes</a></p>
 </blockquote>
-]]></content:encoded></item><item><title>preview changes</title><link>https://anassawalha95.github.io/garden/notes/preview-changes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/preview-changes/</guid><description>If you&amp;rsquo;d like to preview what your Quartz site looks like before deploying it to the internet, the following instructions guide you through installing the proper dependencies to run it locally.</description><content:encoded><![CDATA[<p>If you&rsquo;d like to preview what your Quartz site looks like before deploying it to the internet, the following
+]]></content:encoded></item><item><title>preview changes</title><link>/notes/preview-changes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/preview-changes/</guid><description>If you&amp;rsquo;d like to preview what your Quartz site looks like before deploying it to the internet, the following instructions guide you through installing the proper dependencies to run it locally.</description><content:encoded><![CDATA[<p>If you&rsquo;d like to preview what your Quartz site looks like before deploying it to the internet, the following
 instructions guide you through installing the proper dependencies to run it locally.</p>
 <h2 id="install-hugo-obsidian">Install <code>hugo-obsidian</code></h2>
 <p>This step will generate the list of backlinks for Hugo to parse. Ensure you have 
-
-<a target=“_blank” href="https://golang.org/doc/install" rel="noopener">Go</a> (&gt;= 1.16) installed.</p>
+<a href="https://golang.org/doc/install" rel="noopener">Go</a> (&gt;= 1.16) installed.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -171,8 +169,7 @@ instructions guide you through installing the proper dependencies to run it loca
 <p>Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated!</p>
 <h2 id="installing-hugo">Installing Hugo</h2>
 <p>Hugo is the static site generator that powers Quartz. 
-
-<a target=“_blank” href="https://gohugo.io/getting-started/installing/" rel="noopener">Install Hugo with &ldquo;extended&rdquo; Sass/SCSS version</a> first. Then,</p>
+<a href="https://gohugo.io/getting-started/installing/" rel="noopener">Install Hugo with &ldquo;extended&rdquo; Sass/SCSS version</a> first. Then,</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -210,18 +207,24 @@ instructions guide you through installing the proper dependencies to run it loca
   rel="noopener" class="internal-link"
   data-src="/notes/hosting/">Hosting Quartz online!</a></p>
 </blockquote>
-]]></content:encoded></item><item><title>hosting</title><link>https://anassawalha95.github.io/garden/notes/hosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/hosting/</guid><description>Hosting on GitHub Pages Quartz is designed to be effortless to deploy. If you forked and cloned Quartz directly from the repository, everything should already be good to go!</description><content:encoded><![CDATA[<h2 id="hosting-on-github-pages">Hosting on GitHub Pages</h2>
+]]></content:encoded></item><item><title>hosting</title><link>/notes/hosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/hosting/</guid><description>Hosting on GitHub Pages Quartz is designed to be effortless to deploy. If you forked and cloned Quartz directly from the repository, everything should already be good to go!</description><content:encoded><![CDATA[<h2 id="hosting-on-github-pages">Hosting on GitHub Pages</h2>
 <p>Quartz is designed to be effortless to deploy. If you forked and cloned Quartz directly from the repository, everything should already be good to go! Follow the steps below.</p>
 <h3 id="enable-github-actions">Enable GitHub Actions</h3>
 <p>By default, GitHub disables workflows from running automatically on Forked Repostories. Head to the &lsquo;Actions&rsquo; tab of your forked repository and Enable Workflows to setup deploying your Quartz site!</p>
-<p><img src="/notes/notes/images/github-actions.png" alt="Enable GitHub Actions"/><em>Enable GitHub Actions</em></p>
+<p>
+
+
+<img src="/notes/images/github-actions.png" width="auto" alt="Enable GitHub Actions"  /><em>Enable GitHub Actions</em></p>
 <h3 id="enable-github-pages">Enable GitHub Pages</h3>
 <p>Head to the &lsquo;Settings&rsquo; tab of your forked repository and go to the &lsquo;Pages&rsquo; tab.</p>
 <ol>
 <li>(IMPORTANT) Set the source to deploy from <code>master</code> (and not <code>hugo</code>) using <code>/ (root)</code></li>
 <li>Set a custom domain here if you have one!</li>
 </ol>
-<p><img src="/notes//notes/images/github-pages.png" alt="Enable GitHub Pages"/><em>Enable GitHub Pages</em></p>
+<p>
+
+
+<img src="/notes/images/github-pages.png" width="auto" alt="Enable GitHub Pages"  /><em>Enable GitHub Pages</em></p>
 <h3 id="pushing-changes">Pushing Changes</h3>
 <p>To see your changes on the internet, we need to push it them to GitHub. Quartz is a <code>git</code> repository so updating it is the same workflow as you would follow as if it were just a regular software project.</p>
 <div class="highlight"><div class="chroma">
@@ -254,8 +257,7 @@ instructions guide you through installing the proper dependencies to run it loca
 <p>Here, we take advantage of GitHub&rsquo;s free page hosting to deploy our site. Change <code>baseURL</code> in <code>/config.toml</code>.</p>
 <p>Make sure that your <code>baseURL</code> has a trailing <code>/</code>!</p>
 <p>
-
-<a target=“_blank” href="https://github.com/jackyzha0/quartz/blob/hugo/config.toml" rel="noopener">Reference <code>config.toml</code> here</a></p>
+<a href="https://github.com/jackyzha0/quartz/blob/hugo/config.toml" rel="noopener">Reference <code>config.toml</code> here</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -276,8 +278,7 @@ instructions guide you through installing the proper dependencies to run it loca
 </div><p>Change <code>cname</code> in <code>/.github/workflows/deploy.yaml</code>. Again, if you don&rsquo;t have a custom domain to use, you can use <code>&lt;YOUR-USERNAME&gt;.github.io</code>.</p>
 <p>Please note that the <code>cname</code> field should <em>not</em> have any path <code>e.g. end with /quartz</code> or have a trailing <code>/</code>.</p>
 <p>
-
-<a target=“_blank” href="https://github.com/jackyzha0/quartz/blob/hugo/.github/workflows/deploy.yaml" rel="noopener">Reference <code>deploy.yaml</code> here</a></p>
+<a href="https://github.com/jackyzha0/quartz/blob/hugo/.github/workflows/deploy.yaml" rel="noopener">Reference <code>deploy.yaml</code> here</a></p>
 <div class="highlight" title=".github/workflows/deploy.yaml"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -356,7 +357,7 @@ I would <em>not use this method</em> unless you know what you are doing.</p>
   href="/notes/troubleshooting/"
   rel="noopener" class="internal-link"
   data-src="/notes/troubleshooting/">FAQ and Troubleshooting guide</a>.</p>
-]]></content:encoded></item><item><title>test</title><link>https://anassawalha95.github.io/garden/notes/test/</link><pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/test/</guid><description/><content:encoded></content:encoded></item><item><title>The Problems With Using An In-house Team</title><link>https://anassawalha95.github.io/garden/notes/The-Problems-With-Using-An-In-house-Team/</link><pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/The-Problems-With-Using-An-In-house-Team/</guid><description>Created: 2023-03-10 Version: 1.00
+]]></content:encoded></item><item><title>test</title><link>/notes/test/</link><pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate><guid>/notes/test/</guid><description/><content:encoded></content:encoded></item><item><title>The Problems With Using An In-house Team</title><link>/notes/The-Problems-With-Using-An-In-house-Team/</link><pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate><guid>/notes/The-Problems-With-Using-An-In-house-Team/</guid><description>Created: 2023-03-10 Version: 1.00
 The key differences between an in-house creative department and a design firm.
 After studying over one thousand developments and speaking with over 100 developers, the evidence is clear.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
 <em>Version</em>: 1.00</p>
@@ -424,13 +425,19 @@ After studying over one thousand developments and speaking with over 100 develop
 ‍</p>
 <hr>
 <h5 id="like-the-creatives-developers-opting-for-a-specialized-design-firm-will-realize-the-same-benefits-because-when-accounts-get-tallied-in-house-departments-have-no-obligation-to-the-reality-of-the-market"><strong>Like the creatives, developers opting for a specialized design firm will realize the same benefits because when accounts get tallied, in-house departments have no obligation to the reality of the market.</strong></h5>
-]]></content:encoded></item><item><title>About</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/About/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/About/</guid><description>Created: 2023-03-09
+]]></content:encoded></item><item><title>About</title><link>/Gnosis/About/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/Gnosis/About/</guid><description>Created: 2023-03-09
 Version: 1.00
 Our Vision</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em></p>
 <p><em>Version</em>: 1.00</p>
 <hr>
 <h1 id="our-vision">Our Vision</h1>
-]]></content:encoded></item><item><title>callouts</title><link>https://anassawalha95.github.io/garden/notes/callouts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/callouts/</guid><description>Callout support Quartz supports the same Admonition-callout syntax as Obsidian.
+]]></content:encoded></item><item><title>About</title><link>/notes/Gnosis/About/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Gnosis/About/</guid><description>Created: 2023-03-09
+Version: 1.00
+Our Vision</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em></p>
+<p><em>Version</em>: 1.00</p>
+<hr>
+<h1 id="our-vision">Our Vision</h1>
+]]></content:encoded></item><item><title>callouts</title><link>/notes/callouts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/callouts/</guid><description>Callout support Quartz supports the same Admonition-callout syntax as Obsidian.
 This includes
 12 Distinct callout types (each with several aliases) Collapsable callouts See documentation on supported types and syntax here.</description><content:encoded><![CDATA[<h2 id="callout-support">Callout support</h2>
 <p>Quartz supports the same Admonition-callout syntax as Obsidian.</p>
@@ -440,8 +447,7 @@ This includes
 <li>Collapsable callouts</li>
 </ul>
 <p>See 
-
-<a target=“_blank” href="https://help.obsidian.md/How&#43;to/Use&#43;callouts#Types" rel="noopener">documentation on supported types and syntax here</a>.</p>
+<a href="https://help.obsidian.md/How&#43;to/Use&#43;callouts#Types" rel="noopener">documentation on supported types and syntax here</a>.</p>
 <h2 id="showcase">Showcase</h2>
 <blockquote>
 <p>[!EXAMPLE] Examples</p>
@@ -491,7 +497,7 @@ This includes
 <p>[!quote] Quote</p>
 <p>Aliases: quote, cite</p>
 </blockquote>
-]]></content:encoded></item><item><title>CJK + Latex Support (测试)</title><link>https://anassawalha95.github.io/garden/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95/</guid><description>Chinese, Japanese, Korean Support 几乎在我们意识到之前，我们已经离开了地面。
+]]></content:encoded></item><item><title>CJK + Latex Support (测试)</title><link>/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/CJK-+-Latex-Support-%E6%B5%8B%E8%AF%95/</guid><description>Chinese, Japanese, Korean Support 几乎在我们意识到之前，我们已经离开了地面。
 우리가 그것을 알기도 전에 우리는 땅을 떠났습니다.
 私たちがそれを知るほぼ前に、私たちは地面を離れていました。
 Latex Block math works with two dollar signs $$.</description><content:encoded><![CDATA[<h2 id="chinese-japanese-korean-support">Chinese, Japanese, Korean Support</h2>
@@ -528,7 +534,7 @@ $$</p>
   href="/notes/config/"
   rel="noopener" class="internal-link"
   data-src="/notes/config/">config</a> page.</p>
-]]></content:encoded></item><item><title>config</title><link>https://anassawalha95.github.io/garden/notes/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/config/</guid><description>Configuration Quartz is designed to be extremely configurable. You can find the bulk of the configuration scattered throughout the repository depending on how in-depth you&amp;rsquo;d like to get.</description><content:encoded><![CDATA[<h2 id="configuration">Configuration</h2>
+]]></content:encoded></item><item><title>config</title><link>/notes/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/config/</guid><description>Configuration Quartz is designed to be extremely configurable. You can find the bulk of the configuration scattered throughout the repository depending on how in-depth you&amp;rsquo;d like to get.</description><content:encoded><![CDATA[<h2 id="configuration">Configuration</h2>
 <p>Quartz is designed to be extremely configurable. You can find the bulk of the configuration scattered throughout the repository depending on how in-depth you&rsquo;d like to get.</p>
 <p>The majority of configuration can be found under <code>data/config.yaml</code>. An annotated example configuration is shown below.</p>
 <div class="highlight" title="data/config.yaml"><div class="chroma">
@@ -690,8 +696,7 @@ $$</p>
 </span></span></span></code></pre></div></li>
 <li>
 <p>Add the <code>title</code> attribute to the desired 
-
-<a target=“_blank” href="https://gohugo.io/content-management/syntax-highlighting/#highlighting-in-code-fences" rel="noopener">code block
+<a href="https://gohugo.io/content-management/syntax-highlighting/#highlighting-in-code-fences" rel="noopener">code block
 fence</a>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"> ```yaml {title=&#34;data/config.yaml&#34;}
 </span></span><span class="line"><span class="cl"> enableCodeBlockTitle: true  # example from step 1
@@ -734,8 +739,7 @@ may be easier to define it as HTML. Here is an example which appends the
 webpage to the home screen of their Apple device. If you are interested in more
 information about the current and past standards of favicons, you can read
 
-
-<a target=“_blank” href="https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/" rel="noopener">this article</a>.</p>
+<a href="https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/" rel="noopener">this article</a>.</p>
 <p><strong>Note</strong> that all generated favicon paths, defined by the <code>href</code>
 attribute, are relative to the <code>static/</code> directory.</p>
 <h3 id="graph-view">Graph View</h3>
@@ -842,8 +846,7 @@ attribute, are relative to the <code>static/</code> directory.</p>
 <p>Partials are what dictate what gets rendered to the page. Want to change how pages are styled and structured? You can edit the appropriate layout in <code>/layouts</code>.</p>
 <p>For example, the structure of the home page can be edited through <code>/layouts/index.html</code>. To customize the footer, you can edit <code>/layouts/partials/footer.html</code></p>
 <p>More info about partials on 
-
-<a target=“_blank” href="https://gohugo.io/templates/partials/" rel="noopener">Hugo&rsquo;s website.</a></p>
+<a href="https://gohugo.io/templates/partials/" rel="noopener">Hugo&rsquo;s website.</a></p>
 <p>Still having problems? Checkout our 
 
 
@@ -867,8 +870,7 @@ attribute, are relative to the <code>static/</code> directory.</p>
   data-src="/notes/CJK-&#43;-Latex-Support-%E6%B5%8B%E8%AF%95/">CJK + Latex Support (测试)</a> comes out of the box with Quartz.</p>
 <p>Want to support languages that read from right-to-left (like Arabic)? Hugo (and by proxy, Quartz) supports this natively.</p>
 <p>Follow the steps 
-
-<a target=“_blank” href="https://gohugo.io/content-management/multilingual/#configure-languages" rel="noopener">Hugo provides here</a> and modify your <code>config.toml</code></p>
+<a href="https://gohugo.io/content-management/multilingual/#configure-languages" rel="noopener">Hugo provides here</a> and modify your <code>config.toml</code></p>
 <p>For example:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -888,24 +890,31 @@ attribute, are relative to the <code>static/</code> directory.</p>
 </span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div>]]></content:encoded></item><item><title>Contact 🗺️⚛️</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</guid><description>If you would like to get in touch, fill out the form below.
+</div>]]></content:encoded></item><item><title>Contact 🗺️⚛️</title><link>/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</guid><description>If you would like to get in touch, fill out the form below.
 (Disable graph and backlinks)
 (Add contact form)</description><content:encoded><![CDATA[<p>If you would like to get in touch, fill out the form below.</p>
 <p>(Disable graph and backlinks)</p>
 <p>(Add contact form)</p>
-]]></content:encoded></item><item><title>custom Domain</title><link>https://anassawalha95.github.io/garden/notes/custom-Domain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/custom-Domain/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
+]]></content:encoded></item><item><title>Contact 🗺️⚛️</title><link>/notes/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</guid><description>If you would like to get in touch, fill out the form below.
+(Disable graph and backlinks)
+(Add contact form)</description><content:encoded><![CDATA[<p>If you would like to get in touch, fill out the form below.</p>
+<p>(Disable graph and backlinks)</p>
+<p>(Add contact form)</p>
+]]></content:encoded></item><item><title>custom Domain</title><link>/notes/custom-Domain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/custom-Domain/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
 <p>This step is only applicable if you are using a <strong>custom domain</strong>! If you are using a <code>&lt;YOUR-USERNAME&gt;.github.io</code> domain, you can skip this step.</p>
 <p>For this last bit to take effect, you also need to create a CNAME record with the DNS provider you register your domain with (i.e. NameCheap, Google Domains).</p>
 <p>GitHub has some 
-
-<a target=“_blank” href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" rel="noopener">documentation on this</a>, but the tldr; is to</p>
+<a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" rel="noopener">documentation on this</a>, but the tldr; is to</p>
 <ol>
 <li>
 <p>Go to your forked repository (<code>github.com/&lt;YOUR-GITHUB-USERNAME&gt;/quartz</code>) settings page and go to the Pages tab. Under &ldquo;Custom domain&rdquo;, type your custom domain, then click <strong>Save</strong>.</p>
 </li>
 <li>
 <p>Go to your DNS Provider and create a CNAME record that points from your domain to <code>&lt;YOUR-GITHUB-USERNAME.github.io.</code> (yes, with the trailing period).</p>
-<p><img src="/notes//notes/images/google-domains.png" alt="Example Configuration for Quartz"/><em>Example Configuration for Quartz</em></p>
+<p>
+
+
+<img src="/notes/images/google-domains.png" width="auto" alt="Example Configuration for Quartz"  /><em>Example Configuration for Quartz</em></p>
 </li>
 <li>
 <p>Wait 30 minutes to an hour for the network changes to kick in.</p>
@@ -914,19 +923,21 @@ attribute, are relative to the <code>static/</code> directory.</p>
 <p>Done!</p>
 </li>
 </ol>
-]]></content:encoded></item><item><title>custom Domains</title><link>https://anassawalha95.github.io/garden/notes/custom-Domains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/custom-Domains/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
+]]></content:encoded></item><item><title>custom Domains</title><link>/notes/custom-Domains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/custom-Domains/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
 <p>This step is only applicable if you are using a <strong>custom domain</strong>! If you are using a <code>&lt;YOUR-USERNAME&gt;.github.io</code> domain, you can skip this step.</p>
 <p>For this last bit to take effect, you also need to create a CNAME record with the DNS provider you register your domain with (i.e. NameCheap, Google Domains).</p>
 <p>GitHub has some 
-
-<a target=“_blank” href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" rel="noopener">documentation on this</a>, but the tldr; is to</p>
+<a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" rel="noopener">documentation on this</a>, but the tldr; is to</p>
 <ol>
 <li>
 <p>Go to your forked repository (<code>github.com/&lt;YOUR-GITHUB-USERNAME&gt;/quartz</code>) settings page and go to the Pages tab. Under &ldquo;Custom domain&rdquo;, type your custom domain, then click <strong>Save</strong>.</p>
 </li>
 <li>
 <p>Go to your DNS Provider and create a CNAME record that points from your domain to <code>&lt;YOUR-GITHUB-USERNAME.github.io.</code> (yes, with the trailing period).</p>
-<p><img src="/notes//notes/images/google-domains.png" alt="Example Configuration for Quartz"/><em>Example Configuration for Quartz</em></p>
+<p>
+
+
+<img src="/notes/images/google-domains.png" width="auto" alt="Example Configuration for Quartz"  /><em>Example Configuration for Quartz</em></p>
 </li>
 <li>
 <p>Wait 30 minutes to an hour for the network changes to kick in.</p>
@@ -935,9 +946,8 @@ attribute, are relative to the <code>static/</code> directory.</p>
 <p>Done!</p>
 </li>
 </ol>
-]]></content:encoded></item><item><title>docker</title><link>https://anassawalha95.github.io/garden/notes/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/docker/</guid><description>If you want to host Quartz on a machine without using a webpage hosting service, it may be easier to install Docker Compose and follow the instructions below than to install Quartz&amp;rsquo;s dependencies manually.</description><content:encoded><![CDATA[<p>If you want to host Quartz on a machine without using a webpage hosting service, it may be easier to 
-
-<a target=“_blank” href="https://docs.docker.com/compose/install/" rel="noopener">install Docker Compose</a> and follow the instructions below than to 
+]]></content:encoded></item><item><title>docker</title><link>/notes/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/docker/</guid><description>If you want to host Quartz on a machine without using a webpage hosting service, it may be easier to install Docker Compose and follow the instructions below than to install Quartz&amp;rsquo;s dependencies manually.</description><content:encoded><![CDATA[<p>If you want to host Quartz on a machine without using a webpage hosting service, it may be easier to 
+<a href="https://docs.docker.com/compose/install/" rel="noopener">install Docker Compose</a> and follow the instructions below than to 
 
 
 
@@ -994,10 +1004,8 @@ actual path to your Quartz folder.</p>
 <h2 id="exposing-your-container-to-the-internet">Exposing Your Container to the Internet</h2>
 <h3 id="to-your-public-ip-address-with-port-forwarding-insecure">To Your Public IP Address with Port Forwarding (insecure)</h3>
 <p>Assuming you are already familiar with 
-
-<a target=“_blank” href="https://en.wikipedia.org/wiki/Port_forwarding" rel="noopener">port forwarding</a> and 
-
-<a target=“_blank” href="https://portforward.com" rel="noopener">setting it up with your router model</a>:</p>
+<a href="https://en.wikipedia.org/wiki/Port_forwarding" rel="noopener">port forwarding</a> and 
+<a href="https://portforward.com" rel="noopener">setting it up with your router model</a>:</p>
 <ol>
 <li>You should set the environment variable <code>HUGO_BASEURL=http://your-public-ip</code> and then start your container.</li>
 <li>Set up port forwarding on your router from port <code>p</code> to <code>your-local-ip:1313</code>.</li>
@@ -1008,16 +1016,14 @@ actual path to your Quartz folder.</p>
 <ol>
 <li>Port forward 443 (HTTPS) from your machine.</li>
 <li>Buy a custom domain (say, <code>your-domain.com</code>) from 
-
-<a target=“_blank” href="https://www.cloudflare.com/products/registrar/" rel="noopener">Cloudflare</a>. Point a DNS A record from <code>your-domain.com</code> to your public IP address and enable the proxy.</li>
+<a href="https://www.cloudflare.com/products/registrar/" rel="noopener">Cloudflare</a>. Point a DNS A record from <code>your-domain.com</code> to your public IP address and enable the proxy.</li>
 <li>Set the environment variables <code>HUGO_BASEURL=https://your-domain.com</code>, <code>HUGO_PORT=443</code>, and <code>HUGO_APPENDPORT=false</code>. Change <code>1313:1313</code> to <code>443:443</code> for the <code>ports</code> in <code>docker-compose.yml</code>.</li>
 <li>Spin up your Quartz container and enjoy it at <code>https://your-domain.com</code>!</li>
 </ol>
 <h3 id="to-a-domain-using-a-reverse-proxy">To a Domain using a Reverse Proxy</h3>
 <p>If you want to serve more than just Quartz to the internet on this machine (or don&rsquo;t want to use the Cloudflare registrar and proxy), you should follow the steps in the section above (as appropriate) and also set up a reverse proxy, like 
-
-<a target=“_blank” href="https://doc.traefik.io/traefik" rel="noopener">Traefik</a>. Be sure to configure your TLS certificates too!</p>
-]]></content:encoded></item><item><title>ignore notes</title><link>https://anassawalha95.github.io/garden/notes/ignore-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/ignore-notes/</guid><description>Quartz Ignore Edit ignoreFiles in config.toml to include paths you&amp;rsquo;d like to exclude from being rendered.
+<a href="https://doc.traefik.io/traefik" rel="noopener">Traefik</a>. Be sure to configure your TLS certificates too!</p>
+]]></content:encoded></item><item><title>ignore notes</title><link>/notes/ignore-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/ignore-notes/</guid><description>Quartz Ignore Edit ignoreFiles in config.toml to include paths you&amp;rsquo;d like to exclude from being rendered.
 1 2 3 4 5 6 .</description><content:encoded><![CDATA[<h3 id="quartz-ignore">Quartz Ignore</h3>
 <p>Edit <code>ignoreFiles</code> in <code>config.toml</code> to include paths you&rsquo;d like to exclude from being rendered.</p>
 <div class="highlight"><div class="chroma">
@@ -1057,11 +1063,83 @@ To ignore a specific file, you can also add the tag <code>draft: true</code> to 
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>More details in 
-
-<a target=“_blank” href="https://gohugo.io/getting-started/configuration/#ignore-content-and-data-files-when-rendering" rel="noopener">Hugo&rsquo;s documentation</a>.</p>
+<a href="https://gohugo.io/getting-started/configuration/#ignore-content-and-data-files-when-rendering" rel="noopener">Hugo&rsquo;s documentation</a>.</p>
 <h3 id="global-ignore">Global Ignore</h3>
 <p>However, just adding to the <code>ignoreFiles</code> will only prevent the page from being access through Quartz. If you want to prevent the file from being pushed to GitHub (for example if you have a public repository), you need to also add the path to the <code>.gitignore</code> file at the root of the repository.</p>
-]]></content:encoded></item><item><title>Insights</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/Insights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/Insights/</guid><description>Created: 2023-03-09 Version: 1.00
+]]></content:encoded></item><item><title>index</title><link>/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/index.html</guid><description>Welcome to GNOSIS.
+Creative Consultants for Iconic Real Estate Developments.
+Redefining the boundary of what&amp;rsquo;s possible for architecture.</description><content:encoded><![CDATA[<blockquote>
+<p>Welcome to GNOSIS.</p>
+</blockquote>
+<p>Creative Consultants for Iconic Real Estate Developments.</p>
+<p>Redefining the boundary of what&rsquo;s possible for architecture.</p>
+<h1 id="the-website">The Website</h1>
+<blockquote>
+<p>The website is a hyperlinked, rhizomatic interweb of infinite insights.</p>
+</blockquote>
+<p>ALL areas of 
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="notes%5cReal%20Estate%20Development">Real Estate Development</a> are deeply explored.
+s</p>
+<p>[[]]</p>
+<p>[[]]
+s</p>
+]]></content:encoded></item><item><title>Insights</title><link>/Gnosis/Insights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/Gnosis/Insights/</guid><description>Created: 2023-03-09 Version: 1.00
+Insights - Types
+Insights - Structure
+Insights - Articles
+Contact 🗺️⚛️</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="..%5cnotes%5cInsights%20-%20Types">Insights - Types</a></p>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="..%5cnotes%5cInsights%20-%20%20%20Structure">Insights -   Structure</a></p>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="..%5cnotes%5cInsights%20-%20Articles">Insights - Articles</a></p>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="Contact%20%F0%9F%97%BA%EF%B8%8F%E2%9A%9B%EF%B8%8F">Contact 🗺️⚛️</a></p>
+<p>*Insights -  Whitepapers *</p>
+]]></content:encoded></item><item><title>Insights</title><link>/notes/Gnosis/Insights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Gnosis/Insights/</guid><description>Created: 2023-03-09 Version: 1.00
 Insights - Types
 Insights - Structure
 Insights - Articles
@@ -1109,7 +1187,7 @@ Contact 🗺️⚛️</description><content:encoded><![CDATA[<p><em>Created</em>
   rel="noopener" class="internal-link broken"
   data-src="Contact%20%F0%9F%97%BA%EF%B8%8F%E2%9A%9B%EF%B8%8F">Contact 🗺️⚛️</a></p>
 <p>*Insights -  Whitepapers *</p>
-]]></content:encoded></item><item><title>Insights - Structure</title><link>https://anassawalha95.github.io/garden/notes/Insights-Structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Structure/</guid><description/><content:encoded></content:encoded></item><item><title>Insights - Articles</title><link>https://anassawalha95.github.io/garden/notes/Insights-Articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Articles/</guid><description>Created: 2023-03-10 Version: 1.00
+]]></content:encoded></item><item><title>Insights - Structure</title><link>/notes/Insights-Structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Insights-Structure/</guid><description/><content:encoded></content:encoded></item><item><title>Insights - Articles</title><link>/notes/Insights-Articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Insights-Articles/</guid><description>Created: 2023-03-10 Version: 1.00
 The Cost of Going Cheap On Visuals
 The Top Questions Developers Must Ask</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
 <em>Version</em>: 1.00</p>
@@ -1361,7 +1439,7 @@ The Top Questions Developers Must Ask</description><content:encoded><![CDATA[<p>
 <p>The key differences between an in-house creative department and a design firm.</p>
 <p>By Brando on <em>2023-03-10</em></p>
 <hr>
-]]></content:encoded></item><item><title>Insights - Types</title><link>https://anassawalha95.github.io/garden/notes/Insights-Types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Types/</guid><description>[!abstract] Summaries
+]]></content:encoded></item><item><title>Insights - Types</title><link>/notes/Insights-Types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Insights-Types/</guid><description>[!abstract] Summaries
 Aliases: abstract, summary, tldr
 [!info] Info
 Aliases: info, todo
@@ -1382,22 +1460,19 @@ Aliases: question, help, faq</description><content:encoded><![CDATA[<blockquote>
 <p>[!warning] Warning</p>
 <p>Aliases: warning, caution, attention</p>
 </blockquote>
-]]></content:encoded></item><item><title>Insights - Whitepapers §§</title><link>https://anassawalha95.github.io/garden/notes/Insights-Whitepapers-/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Whitepapers-/</guid><description>Created: 2023-03-10 Version: 1.00
+]]></content:encoded></item><item><title>Insights - Whitepapers §§</title><link>/notes/Insights-Whitepapers-/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Insights-Whitepapers-/</guid><description>Created: 2023-03-10 Version: 1.00
 📍</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
 <em>Version</em>: 1.00</p>
 <hr>
 <p>📍</p>
-]]></content:encoded></item><item><title>philosophy</title><link>https://anassawalha95.github.io/garden/notes/philosophy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/philosophy/</guid><description>“[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.</description><content:encoded><![CDATA[<blockquote>
+]]></content:encoded></item><item><title>philosophy</title><link>/notes/philosophy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/philosophy/</guid><description>“[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.</description><content:encoded><![CDATA[<blockquote>
 <p>“[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming</p>
 </blockquote>
 <h2 id="why-quartz">Why Quartz?</h2>
 <p>Hosting a public digital garden isn&rsquo;t easy. There are an overwhelming number of tutorials, resources, and guides for tools like 
-
-<a target=“_blank” href="https://www.notion.so/" rel="noopener">Notion</a>, 
-
-<a target=“_blank” href="https://roamresearch.com/" rel="noopener">Roam</a>, and 
-
-<a target=“_blank” href="https://obsidian.md/" rel="noopener">Obsidian</a>, yet none of them have super easy to use <em>free</em> tools to publish that garden to the world.</p>
+<a href="https://www.notion.so/" rel="noopener">Notion</a>, 
+<a href="https://roamresearch.com/" rel="noopener">Roam</a>, and 
+<a href="https://obsidian.md/" rel="noopener">Obsidian</a>, yet none of them have super easy to use <em>free</em> tools to publish that garden to the world.</p>
 <p>I&rsquo;ve personally found that</p>
 <ol>
 <li>It&rsquo;s nice to access notes from anywhere</li>
@@ -1405,12 +1480,10 @@ Aliases: question, help, faq</description><content:encoded><![CDATA[<blockquote>
 <li>It makes keeping personal notes and knowledge <em>playful and fun</em></li>
 </ol>
 <p>I was really inspired by 
-
-<a target=“_blank” href="https://garden.bianca.digital/" rel="noopener">Bianca</a> and 
-
-<a target=“_blank” href="https://joelhooks.com/digital-garden" rel="noopener">Joel</a>&rsquo;s digital gardens and wanted to try making my own.</p>
+<a href="https://garden.bianca.digital/" rel="noopener">Bianca</a> and 
+<a href="https://joelhooks.com/digital-garden" rel="noopener">Joel</a>&rsquo;s digital gardens and wanted to try making my own.</p>
 <p><strong>The goal of Quartz is to make hosting your own public digital garden free and simple.</strong> You don&rsquo;t even need your own website. Quartz does all of that for you and gives your own little corner of the internet.</p>
-]]></content:encoded></item><item><title>private-note</title><link>https://anassawalha95.github.io/garden/notes/private-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/private-note/</guid><description>This page doesn&amp;rsquo;t get published!</description><content:encoded>&lt;p>This page doesn&amp;rsquo;t get published!&lt;/p></content:encoded></item><item><title>Real Estate Development</title><link>https://anassawalha95.github.io/garden/notes/Real-Estate-Development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Real-Estate-Development/</guid><description/><content:encoded></content:encoded></item><item><title>search</title><link>https://anassawalha95.github.io/garden/notes/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/search/</guid><description>Quartz supports two modes of searching through content.
+]]></content:encoded></item><item><title>private-note</title><link>/notes/private-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/private-note/</guid><description>This page doesn&amp;rsquo;t get published!</description><content:encoded>&lt;p>This page doesn&amp;rsquo;t get published!&lt;/p></content:encoded></item><item><title>Real Estate Development</title><link>/notes/Real-Estate-Development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Real-Estate-Development/</guid><description/><content:encoded></content:encoded></item><item><title>search</title><link>/notes/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/search/</guid><description>Quartz supports two modes of searching through content.
 Full-text Full-text search is the default in Quartz. It produces results that exactly match the search query.</description><content:encoded><![CDATA[<p>Quartz supports two modes of searching through content.</p>
 <h2 id="full-text">Full-text</h2>
 <p>Full-text search is the default in Quartz. It produces results that <em>exactly</em> match the search query. This is easier to setup but usually produces lower quality matches.</p>
@@ -1426,8 +1499,7 @@ Full-text Full-text search is the default in Quartz. It produces results that ex
 </div>
 </div><h2 id="natural-language">Natural Language</h2>
 <p>Natural language search is powered by 
-
-<a target=“_blank” href="https://beta.operand.ai/" rel="noopener">Operand</a>. It understands language like a person does and finds results that best match user intent. In this sense, it is closer to how Google Search works.</p>
+<a href="https://beta.operand.ai/" rel="noopener">Operand</a>. It understands language like a person does and finds results that best match user intent. In this sense, it is closer to how Google Search works.</p>
 <p>Natural language search tends to produce higher quality results than full-text search.</p>
 <p>Here&rsquo;s how to set it up.</p>
 <ol>
@@ -1458,7 +1530,7 @@ Full-text Full-text search is the default in Quartz. It produces results that ex
 <li>Push your changes to the site and wait for it to deploy.</li>
 <li>Check the Operand dashboard and wait for your site to index. Enjoy natural language search powered by Operand!</li>
 </ol>
-]]></content:encoded></item><item><title>Services</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/Services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/Services/</guid><description>Created: 2023-03-09 Version: 1.00
+]]></content:encoded></item><item><title>Services</title><link>/Gnosis/Services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/Gnosis/Services/</guid><description>Created: 2023-03-09 Version: 1.00
 We solve ALL problems.
 Services Market Research
 Creative Orchestration Creative Conducting
@@ -1472,56 +1544,55 @@ Design through CHRYSALIS. Computer graphics through CENO.</description><content:
 Creative Conducting</p>
 <p>Design through CHRYSALIS.
 Computer graphics through CENO.</p>
-]]></content:encoded></item><item><title>setup</title><link>https://anassawalha95.github.io/garden/notes/setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/setup/</guid><description/><content:encoded></content:encoded></item><item><title>showcase</title><link>https://anassawalha95.github.io/garden/notes/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/showcase/</guid><description>Want to see what Quartz can do? Here are some cool community gardens :)
+]]></content:encoded></item><item><title>Services</title><link>/notes/Gnosis/Services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Gnosis/Services/</guid><description>Created: 2023-03-09 Version: 1.00
+We solve ALL problems.
+Services Market Research
+Creative Orchestration Creative Conducting
+Design through CHRYSALIS. Computer graphics through CENO.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>We solve ALL problems.</p>
+<h1 id="services">Services</h1>
+<p>Market Research</p>
+<p>Creative Orchestration
+Creative Conducting</p>
+<p>Design through CHRYSALIS.
+Computer graphics through CENO.</p>
+]]></content:encoded></item><item><title>setup</title><link>/notes/setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/setup/</guid><description/><content:encoded></content:encoded></item><item><title>showcase</title><link>/notes/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/showcase/</guid><description>Want to see what Quartz can do? Here are some cool community gardens :)
 Quartz Documentation (this site!) Jacky Zhao&amp;rsquo;s Garden Scaling Synthesis - A hypertext research notebook AWAGMI Intern Notes Shihyu&amp;rsquo;s PKM SlRvb&amp;rsquo;s Site Course notes for Information Technology Advanced Theory Brandon Boswell&amp;rsquo;s Garden Siyang&amp;rsquo;s Courtyard Data Dictionary 🧠 sspaeti.</description><content:encoded><![CDATA[<p>Want to see what Quartz can do? Here are some cool community gardens :)</p>
 <ul>
 <li>
-
-<a target=“_blank” href="https://quartz.jzhao.xyz/" rel="noopener">Quartz Documentation (this site!)</a></li>
+<a href="https://quartz.jzhao.xyz/" rel="noopener">Quartz Documentation (this site!)</a></li>
 <li>
-
-<a target=“_blank” href="https://jzhao.xyz/" rel="noopener">Jacky Zhao&rsquo;s Garden</a></li>
+<a href="https://jzhao.xyz/" rel="noopener">Jacky Zhao&rsquo;s Garden</a></li>
 <li>
-
-<a target=“_blank” href="https://scalingsynthesis.com/" rel="noopener">Scaling Synthesis - A hypertext research notebook</a></li>
+<a href="https://scalingsynthesis.com/" rel="noopener">Scaling Synthesis - A hypertext research notebook</a></li>
 <li>
-
-<a target=“_blank” href="https://notes.awagmi.xyz/" rel="noopener">AWAGMI Intern Notes</a></li>
+<a href="https://notes.awagmi.xyz/" rel="noopener">AWAGMI Intern Notes</a></li>
 <li>
-
-<a target=“_blank” href="https://shihyuho.github.io/pkm/" rel="noopener">Shihyu&rsquo;s PKM</a></li>
+<a href="https://shihyuho.github.io/pkm/" rel="noopener">Shihyu&rsquo;s PKM</a></li>
 <li>
-
-<a target=“_blank” href="https://slrvb.github.io/Site/" rel="noopener">SlRvb&rsquo;s Site</a></li>
+<a href="https://slrvb.github.io/Site/" rel="noopener">SlRvb&rsquo;s Site</a></li>
 <li>
-
-<a target=“_blank” href="https://a2itnotes.github.io/quartz/" rel="noopener">Course notes for Information Technology Advanced Theory</a></li>
+<a href="https://a2itnotes.github.io/quartz/" rel="noopener">Course notes for Information Technology Advanced Theory</a></li>
 <li>
-
-<a target=“_blank” href="https://brandonkboswell.com" rel="noopener">Brandon Boswell&rsquo;s Garden</a></li>
+<a href="https://brandonkboswell.com" rel="noopener">Brandon Boswell&rsquo;s Garden</a></li>
 <li>
-
-<a target=“_blank” href="https://siyangsun.github.io/courtyard/" rel="noopener">Siyang&rsquo;s Courtyard</a></li>
+<a href="https://siyangsun.github.io/courtyard/" rel="noopener">Siyang&rsquo;s Courtyard</a></li>
 <li>
-
-<a target=“_blank” href="https://glossary.airbyte.com/" rel="noopener">Data Dictionary 🧠</a></li>
+<a href="https://glossary.airbyte.com/" rel="noopener">Data Dictionary 🧠</a></li>
 <li>
-
-<a target=“_blank” href="https://brain.sspaeti.com/" rel="noopener">sspaeti.com&rsquo;s Second Brain</a></li>
+<a href="https://brain.sspaeti.com/" rel="noopener">sspaeti.com&rsquo;s Second Brain</a></li>
 <li>
-
-<a target=“_blank” href="https://garden.oldwinter.top/" rel="noopener">oldwinterの数字花园</a></li>
+<a href="https://garden.oldwinter.top/" rel="noopener">oldwinterの数字花园</a></li>
 <li>
-
-<a target=“_blank” href="https://sethmb.xyz/" rel="noopener">SethMB Work</a></li>
+<a href="https://sethmb.xyz/" rel="noopener">SethMB Work</a></li>
 <li>
-
-<a target=“_blank” href="https://abhmul.github.io/quartz/Math-Wiki/" rel="noopener">Abhijeet&rsquo;s Math Wiki</a></li>
+<a href="https://abhmul.github.io/quartz/Math-Wiki/" rel="noopener">Abhijeet&rsquo;s Math Wiki</a></li>
 </ul>
 <p>If you want to see your own on here, submit a 
-
-<a target=“_blank” href="https://github.com/jackyzha0/quartz/blob/hugo/content/notes/showcase" rel="noopener">Pull Request adding yourself to this file</a>!</p>
-]]></content:encoded></item><item><title>Sidebar</title><link>https://anassawalha95.github.io/garden/notes/Sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Sidebar/</guid><description>CJK + Latex Support (测试)</description><content:encoded><![CDATA[<p>
+<a href="https://github.com/jackyzha0/quartz/blob/hugo/content/notes/showcase.md" rel="noopener">Pull Request adding yourself to this file</a>!</p>
+]]></content:encoded></item><item><title>Sidebar</title><link>/notes/Sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Sidebar/</guid><description>CJK + Latex Support (测试)</description><content:encoded><![CDATA[<p>
 
 
 
@@ -1531,8 +1602,8 @@ Quartz Documentation (this site!) Jacky Zhao&amp;rsquo;s Garden Scaling Synthesi
   
   rel="noopener" class="internal-link broken"
   data-src="CJK%20&#43;%20Latex%20Support%20%28%E6%B5%8B%E8%AF%95%29">CJK + Latex Support (测试)</a></p>
-]]></content:encoded></item><item><title>Test Private Link</title><link>https://anassawalha95.github.io/garden/notes/Test-Private-Link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Test-Private-Link/</guid><description>ddd d</description><content:encoded>&lt;p>ddd
-d&lt;/p></content:encoded></item><item><title>The Cost of Going Cheap On Visuals</title><link>https://anassawalha95.github.io/garden/notes/The-Cost-of-Going-Cheap-On-Visuals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/The-Cost-of-Going-Cheap-On-Visuals/</guid><description>Created: 2023-03-10 Version: 1.00
+]]></content:encoded></item><item><title>Test Private Link</title><link>/notes/Test-Private-Link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Test-Private-Link/</guid><description>ddd d</description><content:encoded>&lt;p>ddd
+d&lt;/p></content:encoded></item><item><title>The Cost of Going Cheap On Visuals</title><link>/notes/The-Cost-of-Going-Cheap-On-Visuals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/The-Cost-of-Going-Cheap-On-Visuals/</guid><description>Created: 2023-03-10 Version: 1.00
 Have you ever picked the more “affordable” solution, only to regret it later? We see this all the time.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
 <em>Version</em>: 1.00</p>
 <hr>
@@ -1575,7 +1646,7 @@ Have you ever picked the more “affordable” solution, only to regret it later
 <p>‍</p>
 <p>‍</p>
 <p>‍</p>
-]]></content:encoded></item><item><title>The Top Questions Developers Must Ask</title><link>https://anassawalha95.github.io/garden/notes/The-Top-Questions-Developers-Must-Ask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/The-Top-Questions-Developers-Must-Ask/</guid><description>Created: 2023-03-10 Version: 1.00
+]]></content:encoded></item><item><title>The Top Questions Developers Must Ask</title><link>/notes/The-Top-Questions-Developers-Must-Ask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/The-Top-Questions-Developers-Must-Ask/</guid><description>Created: 2023-03-10 Version: 1.00
 The best way to avoid a failed campaign is to prevent it.
 It starts with picking the right firm.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
 <em>Version</em>: 1.00</p>
@@ -1669,11 +1740,10 @@ It starts with picking the right firm.</description><content:encoded><![CDATA[<p
 <p>‍</p>
 <p>‍</p>
 <p>‍</p>
-]]></content:encoded></item><item><title>troubleshooting</title><link>https://anassawalha95.github.io/garden/notes/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/troubleshooting/</guid><description>Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.
+]]></content:encoded></item><item><title>troubleshooting</title><link>/notes/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/troubleshooting/</guid><description>Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.
 While you&amp;rsquo;re here, join our Discord :)</description><content:encoded><![CDATA[<p>Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.</p>
 <p>While you&rsquo;re here, join our 
-
-<a target=“_blank” href="https://discord.gg/cRFFHYye7t" rel="noopener">Discord</a> :)</p>
+<a href="https://discord.gg/cRFFHYye7t" rel="noopener">Discord</a> :)</p>
 <h3 id="does-quartz-have-latex-support">Does Quartz have Latex support?</h3>
 <p>Yes! See 
 
@@ -1792,14 +1862,11 @@ While you&amp;rsquo;re here, join our Discord :)</description><content:encoded><
   data-src="/notes/hosting/">the hosting guide</a> again. Make sure you wait 30 min to 1 hour for changes to take effect.</p>
 <h3 id="how-do-i-setup-analytics">How do I setup analytics?</h3>
 <p>Quartz by default uses 
-
-<a target=“_blank” href="https://plausible.io/" rel="noopener">Plausible</a> for analytics.</p>
+<a href="https://plausible.io/" rel="noopener">Plausible</a> for analytics.</p>
 <p>If you would prefer to use Google Analytics, you can follow this 
-
-<a target=“_blank” href="https://gohugo.io/templates/internal/#google-analytics" rel="noopener">guide in the Hugo documentation</a>.</p>
+<a href="https://gohugo.io/templates/internal/#google-analytics" rel="noopener">guide in the Hugo documentation</a>.</p>
 <p>Alternatively, you can also import your Google Analytics data into Plausible by 
-
-<a target=“_blank” href="https://plausible.io/docs/google-analytics-import" rel="noopener">following this guide</a>.</p>
+<a href="https://plausible.io/docs/google-analytics-import" rel="noopener">following this guide</a>.</p>
 <h3 id="how-do-i-change-the-content-on-the-home-page">How do I change the content on the home page?</h3>
 <p>To edit the main home page, open <code>/content/_index.md</code>.</p>
 <h3 id="how-do-i-change-the-colours">How do I change the colours?</h3>
@@ -1840,12 +1907,10 @@ While you&amp;rsquo;re here, join our Discord :)</description><content:encoded><
 <p>Not out of the box. You could probably make it work by editing <code>/layouts/_default/single.html</code> but that&rsquo;s not what Quartz is designed to work with. 99% of things you are trying to do with those frameworks you can accomplish perfectly fine using just vanilla HTML/CSS/JS.</p>
 <h2 id="still-stuck">Still Stuck?</h2>
 <p>Quartz isn&rsquo;t perfect! If you&rsquo;re still having troubles, file an issue in the GitHub repo with as much information as you can reasonably provide. Alternatively, you can message me on 
-
-<a target=“_blank” href="https://twitter.com/_jzhao" rel="noopener">Twitter</a> and I&rsquo;ll try to get back to you as soon as I can.</p>
+<a href="https://twitter.com/_jzhao" rel="noopener">Twitter</a> and I&rsquo;ll try to get back to you as soon as I can.</p>
 <p>🐛 
-
-<a target=“_blank” href="https://github.com/jackyzha0/quartz/issues" rel="noopener">Submit an Issue</a></p>
-]]></content:encoded></item><item><title>updating</title><link>https://anassawalha95.github.io/garden/notes/updating/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/updating/</guid><description>Haven&amp;rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update!</description><content:encoded><![CDATA[<p>Haven&rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update! This command will show you a log summary of all commits since you last updated, press <code>q</code> to acknowledge this. Then, it will show you each change in turn and press <code>y</code> to accept the patch or <code>n</code> to reject it. Usually you should press <code>y</code> for most of these unless it conflicts with existing changes you&rsquo;ve made!</p>
+<a href="https://github.com/jackyzha0/quartz/issues" rel="noopener">Submit an Issue</a></p>
+]]></content:encoded></item><item><title>updating</title><link>/notes/updating/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/updating/</guid><description>Haven&amp;rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update!</description><content:encoded><![CDATA[<p>Haven&rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update! This command will show you a log summary of all commits since you last updated, press <code>q</code> to acknowledge this. Then, it will show you each change in turn and press <code>y</code> to accept the patch or <code>n</code> to reject it. Usually you should press <code>y</code> for most of these unless it conflicts with existing changes you&rsquo;ve made!</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1887,7 +1952,7 @@ Make sure you have a copy of these changes if you don&rsquo;t want to lose them.
 </span></span><span class="line"><span class="cl">git checkout -p upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data 
 </span></span></code></pre></td></tr></table>
 </div>
-</div>]]></content:encoded></item><item><title>updatingsd</title><link>https://anassawalha95.github.io/garden/notes/updatingsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/updatingsd/</guid><description>Haven&amp;rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update!</description><content:encoded><![CDATA[<p>Haven&rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update! This command will show you a log summary of all commits since you last updated, press <code>q</code> to acknowledge this. Then, it will show you each change in turn and press <code>y</code> to accept the patch or <code>n</code> to reject it. Usually you should press <code>y</code> for most of these unless it conflicts with existing changes you&rsquo;ve made!</p>
+</div>]]></content:encoded></item><item><title>updatingsd</title><link>/notes/updatingsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/updatingsd/</guid><description>Haven&amp;rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update!</description><content:encoded><![CDATA[<p>Haven&rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update! This command will show you a log summary of all commits since you last updated, press <code>q</code> to acknowledge this. Then, it will show you each change in turn and press <code>y</code> to accept the patch or <code>n</code> to reject it. Usually you should press <code>y</code> for most of these unless it conflicts with existing changes you&rsquo;ve made!</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1929,7 +1994,7 @@ Make sure you have a copy of these changes if you don&rsquo;t want to lose them.
 </span></span><span class="line"><span class="cl">git checkout -p upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data 
 </span></span></code></pre></td></tr></table>
 </div>
-</div>]]></content:encoded></item><item><title>Website Taxonomy</title><link>https://anassawalha95.github.io/garden/notes/Website-Taxonomy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Website-Taxonomy/</guid><description>Created: 2023-03-10 Version: 1.00
+</div>]]></content:encoded></item><item><title>Website Taxonomy</title><link>/notes/Website-Taxonomy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/notes/Website-Taxonomy/</guid><description>Created: 2023-03-10 Version: 1.00
 Symbols 🗺️ = Database
 📍 = Sub Database
 📔 = Books
