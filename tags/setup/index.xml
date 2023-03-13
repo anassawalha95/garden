@@ -16,9 +16,7 @@
 <a target=“_blank” href="https://github.com/join" rel="noopener">here</a>. More details about forking a repo can be found on 
 
 <a target=“_blank” href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" rel="noopener">GitHub&rsquo;s documentation</a>.</p>
-<p>
-
-<img src="/images%5Cfork.png" alt="notes/images/fork.png"  /></p>
+<p><img src="/notes/images%5cfork.png" alt="notes/images/fork.png"/></p>
 <h3 id="cloning">Cloning</h3>
 <p>After you&rsquo;ve made a fork of the repository, you need to download the files locally onto your machine. Ensure you have <code>git</code>, then type the following command in your terminal replacing <code>YOUR-USERNAME</code> with your GitHub username.</p>
 <div class="highlight"><div class="chroma">
@@ -167,9 +165,7 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
 <li>Set the <strong>New link format</strong> to <strong>Absolute Path in vault</strong>. If you have a completely flat vault (no folders), this step isn&rsquo;t necessary.</li>
 <li>Turn <strong>on</strong> the <strong>Automatically update internal links</strong> setting.</li>
 </ol>
-<p>
-
-<img src="/images%5Cobsidian-settings.png" alt="notes/images/obsidian-settings.png"  /><em>Obsidian Settings</em></p>
+<p><img src="/notes/images%5cobsidian-settings.png" alt="notes/images/obsidian-settings.png"/><em>Obsidian Settings</em></p>
 <h2 id="templates">Templates</h2>
 <p>Inserting front matter everytime you want to create a new Note gets annoying really quickly. Luckily, Obsidian supports templates which makes inserting new content really easily.</p>
 <blockquote>
@@ -252,9 +248,7 @@ instructions guide you through installing the proper dependencies to run it loca
 <h3 id="enable-github-actions-permissions">Enable GitHub Actions Permissions</h3>
 <p>By default, GitHub disables workflows from modifying your files (for good reason!). However, Quartz needs this to write the actual site files back to GitHub.</p>
 <p>Head to <code>Settings &gt; Action &gt; General &gt; Workflow Permissions</code> and choose <code>Read and Write Permissions</code></p>
-<p>
-
-<img src="/images%5Cgithub-actions.png" alt="notes/images/github-actions.png"  />
+<p><img src="/notes/images%5cgithub-actions.png" alt="notes/images/github-actions.png"/>
 <em>Enable GitHub Actions</em></p>
 <h3 id="enable-github-pages">Enable GitHub Pages</h3>
 <p>Head to the &lsquo;Settings&rsquo; tab of your forked repository and go to the &lsquo;Pages&rsquo; tab.</p>
@@ -262,9 +256,7 @@ instructions guide you through installing the proper dependencies to run it loca
 <li>(IMPORTANT) Set the source to deploy from <code>master</code> (and not <code>hugo</code>) using <code>/ (root)</code></li>
 <li>Set a custom domain here if you have one!</li>
 </ol>
-<p>
-
-<img src="/notes/images/github-pages.png" alt="Enable GitHub Pages"  /><em>Enable GitHub Pages</em></p>
+<p><img src="/notes//notes/images/github-pages.png" alt="Enable GitHub Pages"/><em>Enable GitHub Pages</em></p>
 <h3 id="pushing-changes">Pushing Changes</h3>
 <p>To see your changes on the internet, we need to push it them to GitHub. Quartz is a <code>git</code> repository so updating it is the same workflow as you would follow as if it were just a regular software project.</p>
 <div class="highlight"><div class="chroma">
