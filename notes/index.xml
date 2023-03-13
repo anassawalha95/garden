@@ -1,57 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Brandon Boswell</title><link>https://anassawalha95.github.io/garden/notes/</link><description>Recent content from Brandon Boswell's Digital Garden</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://anassawalha95.github.io/garden/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>setup</title><link>https://anassawalha95.github.io/garden/notes/setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/setup/</guid><description>Making your own Quartz Setting up Quartz requires a basic understanding of git. If you are unfamiliar, this resource is a great place to start!</description><content:encoded><![CDATA[<h2 id="making-your-own-quartz">Making your own Quartz</h2>
-<p>Setting up Quartz requires a basic understanding of <code>git</code>. If you are unfamiliar, 
-
-<a target=“_blank” href="https://resources.nwplus.io/2-beginner/how-to-git-github.html" rel="noopener">this resource</a> is a great place to start!</p>
-<h3 id="forking">Forking</h3>
-<blockquote>
-<p>A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.</p>
-</blockquote>
-<p>Navigate to the GitHub repository for the Quartz project:</p>
-<p>📁 
-
-<a target=“_blank” href="https://github.com/jackyzha0/quartz" rel="noopener">Quartz Repository</a></p>
-<p>Then, Fork the repository into your own GitHub account. <strong>Make sure that when you fork, you <em>uncheck</em> the &lsquo;Copy the <code>hugo</code> branch only&rsquo; option</strong>.</p>
-<p>If you don&rsquo;t have an account, you can make on for free 
-
-<a target=“_blank” href="https://github.com/join" rel="noopener">here</a>. More details about forking a repo can be found on 
-
-<a target=“_blank” href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" rel="noopener">GitHub&rsquo;s documentation</a>.</p>
-<p><img src="/notes/images%5cfork.png" alt="notes/images/fork.png"/></p>
-<h3 id="cloning">Cloning</h3>
-<p>After you&rsquo;ve made a fork of the repository, you need to download the files locally onto your machine. Ensure you have <code>git</code>, then type the following command in your terminal replacing <code>YOUR-USERNAME</code> with your GitHub username.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git clone https://github.com/YOUR-USERNAME/quartz
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="editing">Editing</h2>
-<p>Great! Now you have everything you need to start editing and growing your digital garden. If you&rsquo;re ready to start writing content already, check out the recommended flow for editing notes in Quartz.</p>
-<blockquote>
-<p>✏️ Step 2: 
-
-
-
-
-
-<a
-  href="/notes/editing/"
-  rel="noopener" class="internal-link"
-  data-src="/notes/editing/">Editing Notes in Quartz</a></p>
-</blockquote>
-<p>Having problems? Checkout our 
-
-
-
-
-
-<a
-  href="/notes/troubleshooting/"
-  rel="noopener" class="internal-link"
-  data-src="/notes/troubleshooting/">FAQ and Troubleshooting guide</a>.</p>
-]]></content:encoded></item><item><title>editing</title><link>https://anassawalha95.github.io/garden/notes/editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/editing/</guid><description>Editing Quartz runs on top of Hugo so all notes are written in Markdown.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Brandon Boswell</title><link>https://anassawalha95.github.io/garden/notes/</link><description>Recent content from Brandon Boswell's Digital Garden</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://anassawalha95.github.io/garden/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>editing</title><link>https://anassawalha95.github.io/garden/notes/editing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/editing/</guid><description>Editing Quartz runs on top of Hugo so all notes are written in Markdown.
 Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</description><content:encoded><![CDATA[<h2 id="editing">Editing</h2>
 <p>Quartz runs on top of 
 
@@ -62,9 +9,31 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
 <p>Here&rsquo;s a rough overview of what&rsquo;s what.</p>
 <p><strong>All content in your garden can found in the <code>/content</code> folder.</strong> To make edits, you can open any of the files and make changes directly and save it. You can organize content into any folder you&rsquo;d like.</p>
 <p><strong>To edit the main home page, open <code>/content/_index.md</code>.</strong></p>
+<p>To create a link between notes in your garden, just create a normal link using Markdown pointing to the document in question. Please note that <strong>all links should be relative to the root <code>/content</code> path</strong>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">For example, I want to link this current document to <span class="sb">`notes/config.md`</span>.
+</span></span><span class="line"><span class="cl">[<span class="nt">A link to the config page</span>](<span class="na">notes/config.md</span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Similarly, you can put local images anywhere in the <code>/content</code> folder.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">Example image (source is in content/notes/images/example.png)
+</span></span><span class="line"><span class="cl">![<span class="nt">Example Image</span>](<span class="na">/content/notes/images/example.png</span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You can also use wikilinks if that is what you are more comfortable with!</p>
 <h3 id="front-matter">Front Matter</h3>
-<p>Hugo is picky when it comes to metadata for files. Make sure that your title is double-quoted and that you have a title defined at the top of your file like so, otherwise the generated page will not have a title!</p>
-<p>You can also add tags here as well.</p>
+<p>Hugo is picky when it comes to metadata for files. Make sure that your title is double-quoted and that you have a title defined at the top of your file like so. You can also add tags here as well.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -162,16 +131,13 @@ Folder Structure Here&amp;rsquo;s a rough overview of what&amp;rsquo;s what.</de
 <p>Great, now that you have your Obsidian linked to your Quartz, let&rsquo;s fix some settings so that they play well.</p>
 <p>Open Settings &gt; Files &amp; Links and look for these two items:</p>
 <ol>
-<li>Set the <strong>New link format</strong> to <strong>Absolute Path in vault</strong>. If you have a completely flat vault (no folders), this step isn&rsquo;t necessary.</li>
+<li>Set the <strong>New link format</strong> to <strong>Absolute Path in vault</strong>.</li>
 <li>Turn <strong>on</strong> the <strong>Automatically update internal links</strong> setting.</li>
 </ol>
-<p><img src="/notes/images%5cobsidian-settings.png" alt="notes/images/obsidian-settings.png"/><em>Obsidian Settings</em></p>
+<p><img src="/notes//notes/images/obsidian-settings.png" alt="Obsidian Settings"/><em>Obsidian Settings</em></p>
 <h2 id="templates">Templates</h2>
 <p>Inserting front matter everytime you want to create a new Note gets annoying really quickly. Luckily, Obsidian supports templates which makes inserting new content really easily.</p>
-<blockquote>
-<p>[!WARNING]</p>
 <p><strong>If you decide to overwrite the <code>/content</code> folder completely, don&rsquo;t remove the <code>/content/templates</code> folder!</strong></p>
-</blockquote>
 <p>Head over to Options &gt; Core Plugins and enable the Templates plugin. Then go to Options &gt; Hotkeys and set a hotkey for &lsquo;Insert Template&rsquo; (I recommend <code>[cmd]+T</code>). That way, when you create a new note, you can just press the hotkey for a new template and be ready to go!</p>
 <blockquote>
 <p>👀 Step 4: 
@@ -201,7 +167,8 @@ instructions guide you through installing the proper dependencies to run it loca
 </span></span><span class="line"><span class="cl">go install github.com/jackyzha0/hugo-obsidian@latest
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>If you are running into an error saying that <code>command not found: hugo-obsidian</code>, make sure you set your <code>GOPATH</code> correctly (see [[notes/troubleshooting#<code>command not found: hugo-obsidian</code>|the troubleshooting page]])! This will allow your terminal to correctly recognize hugo-obsidian as an executable.</p>
+</div><p>If you are running into an error saying that <code>command not found: hugo-obsidian</code>, make sure you set your <code>GOPATH</code> correctly! This will allow your terminal to correctly recognize hugo-obsidian as an executable.</p>
+<p>Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated!</p>
 <h2 id="installing-hugo">Installing Hugo</h2>
 <p>Hugo is the static site generator that powers Quartz. 
 
@@ -228,9 +195,9 @@ instructions guide you through installing the proper dependencies to run it loca
 </div>
 </div><blockquote>
 <p>[!INFO] Docker Support</p>
-<p>If you have the Docker CLI installed already, you can avoid installing <code>hugo-obsidian</code> and <code>hugo</code>. Instead, open your terminal, navigate to your folder with Quartz and run <code>make docker</code></p>
+<p>If you have Docker installed already, open your terminal, navigate to your folder with Quartz and run <code>make docker</code></p>
 </blockquote>
-<p>Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated! Now, let&rsquo;s get it hosted online.</p>
+<p>Now that you are happy with how your Quartz instance looks, let&rsquo;s get it hosted!</p>
 <blockquote>
 <p>🌍 Step 5: 
 
@@ -245,11 +212,9 @@ instructions guide you through installing the proper dependencies to run it loca
 </blockquote>
 ]]></content:encoded></item><item><title>hosting</title><link>https://anassawalha95.github.io/garden/notes/hosting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/hosting/</guid><description>Hosting on GitHub Pages Quartz is designed to be effortless to deploy. If you forked and cloned Quartz directly from the repository, everything should already be good to go!</description><content:encoded><![CDATA[<h2 id="hosting-on-github-pages">Hosting on GitHub Pages</h2>
 <p>Quartz is designed to be effortless to deploy. If you forked and cloned Quartz directly from the repository, everything should already be good to go! Follow the steps below.</p>
-<h3 id="enable-github-actions-permissions">Enable GitHub Actions Permissions</h3>
-<p>By default, GitHub disables workflows from modifying your files (for good reason!). However, Quartz needs this to write the actual site files back to GitHub.</p>
-<p>Head to <code>Settings &gt; Action &gt; General &gt; Workflow Permissions</code> and choose <code>Read and Write Permissions</code></p>
-<p><img src="/notes/images%5cgithub-actions.png" alt="notes/images/github-actions.png"/>
-<em>Enable GitHub Actions</em></p>
+<h3 id="enable-github-actions">Enable GitHub Actions</h3>
+<p>By default, GitHub disables workflows from running automatically on Forked Repostories. Head to the &lsquo;Actions&rsquo; tab of your forked repository and Enable Workflows to setup deploying your Quartz site!</p>
+<p><img src="/notes/notes/images/github-actions.png" alt="Enable GitHub Actions"/><em>Enable GitHub Actions</em></p>
 <h3 id="enable-github-pages">Enable GitHub Pages</h3>
 <p>Head to the &lsquo;Settings&rsquo; tab of your forked repository and go to the &lsquo;Pages&rsquo; tab.</p>
 <ol>
@@ -391,6 +356,80 @@ I would <em>not use this method</em> unless you know what you are doing.</p>
   href="/notes/troubleshooting/"
   rel="noopener" class="internal-link"
   data-src="/notes/troubleshooting/">FAQ and Troubleshooting guide</a>.</p>
+]]></content:encoded></item><item><title>test</title><link>https://anassawalha95.github.io/garden/notes/test/</link><pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/test/</guid><description/><content:encoded></content:encoded></item><item><title>The Problems With Using An In-house Team</title><link>https://anassawalha95.github.io/garden/notes/The-Problems-With-Using-An-In-house-Team/</link><pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/The-Problems-With-Using-An-In-house-Team/</guid><description>Created: 2023-03-10 Version: 1.00
+The key differences between an in-house creative department and a design firm.
+After studying over one thousand developments and speaking with over 100 developers, the evidence is clear.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p><strong>The key differences between an in-house creative department and a design firm.</strong></p>
+<hr>
+<p>After studying over one thousand developments and speaking with over 100 developers, the evidence is clear.</p>
+<p>An in-house creative department for architectural marketing campaigns ensures a quick route to mediocrity, reducing sales. </p>
+<p>Yet most developers still opt for an in-house creative department. They tend to believe it either saves time and money, or they’ll get a better visual at the end. </p>
+<p>The reality? Neither of these happen. </p>
+<p>Design agencies specialize in niches, which produces a greater incentive to produce better results. I will cover why this happens and the difference between in-house creative departments and specialist design agencies. </p>
+<h2 id="incentive-structure">INCENTIVE STRUCTURE</h2>
+<h3 id="in-house">In-house</h3>
+<p><strong>In-house departments have no inherent incentive to grow.</strong></p>
+<p>Creatives on an in-house team focus on abiding by the directions of the firm in which they work. </p>
+<p>Survival and maintenance of the existing structure become the principal obligation. Phrases like “Don’t rock the boat” or “This is the way we do things here” squash any creativity, ambition, and innovation that new team members might have brought to the project. </p>
+<p>What’s the point of moving beyond survival if no intrinsic rewards exist? </p>
+<p>Personal growth means more work for the same pay. </p>
+<p>As such, their systems tend to be outdated and inferior. Something particularly concerning given our society’s current rate of technological advancement. </p>
+<p>There are a few by-products of this phenomenon: </p>
+<ul>
+<li>Failure to accurately diagnose the developers’ problems</li>
+<li>Higher prices for work below industry standards</li>
+<li>Inability to solve problems beyond the immediate project scope or expertise</li>
+</ul>
+<p>By the way, that inability to solve problems beyond the creative’s immediate scope of work often hamstrings the entire project&rsquo;s success. </p>
+<p>To diminish incentives even further, sub-par work has almost no consequences for the architectural firm. Developers will still work with the architect even if their in-house visual team creates marketing material that looks like something rendered from 30-year-old CG software. </p>
+<p>In short, the reputation of the architectural firm protects the in-house team. The developer may not like the marketing material, but they don&rsquo;t want to risk the deal with a top-tier architecture firm. </p>
+<p>This further exacerbates the inherent complacency of the in-house creative departments. It’s a shame, really. </p>
+<h3 id="design-firms">Design Firms</h3>
+<p><strong>The marketplace rewards design firms for exceptional results.</strong></p>
+<p>The better their results, the more they grow. </p>
+<p>Design firms feel the rewards of a successful project. They become tangible reminders that rewards create an inherent imperative toward growth. </p>
+<p>A design firm exists to create and grow. That simply won’t happen if they don’t put their clients first and consistently solve their clients’ problems with speed and a clear ROI. </p>
+<p>The tangible rewards of success incentivize design first to invest in superior, modern systems that can accommodate the challenges of our times. </p>
+<p>Plus, the design firm and every single team member risks more since they operate in the open market. </p>
+<h2 id="project-execution">PROJECT EXECUTION</h2>
+<h3 id="in-house-1">In-house</h3>
+<p><strong>In-house departments prioritize the needs of the firm they reside in over the developer.</strong></p>
+<p>The existing structure results in teams operating as <strong>executors</strong> who simply take orders from developers or their superiors. (And I have yet to find an industry that doesn&rsquo;t joke about managers with no specialty in the skills of the team they manage - in this case, marketing, branding, or computer graphics.)</p>
+<p>Creative executors fail to hit the <em>real</em> objectives because they aren’t expected (or rewarded) for diagnosing the <em>needs</em> (not wants) of the developer. </p>
+<p>Imagine a doctor prescribing you medication without taking the necessary precautions and asking you the right questions - let alone blindly trusting you when you say you want the medication from some commercial or what your friend liked. Yet, we allow creative teams this leeway when so many more lives depend on the success of the development.</p>
+<p><em>In-house teams commit creative malpractice by blindly executing what their non-creative manager says they want.</em> </p>
+<p>And just like (some) doctors, they will prioritize their own needs (profit and prescribing you a medication to meet a quota) over what&rsquo;s best for you. They focus on THEIR architectural features - rather than what’s best for a successful marketing campaign for the project. Granted, certain architectural features may help a campaign but will <em>not</em> increase the value of your development all by themselves. </p>
+<h3 id="design-firms-1">Design Firms</h3>
+<p><strong>Design firms, by nature, must solve the needs of their developer directly.</strong> </p>
+<p>They cannot exist in any other capacity and survive. </p>
+<p>Unlike the in-house team, they work directly with YOU - no middleman, no incentive difference among shareholders. </p>
+<p>A design firm must increase the value of your development <em>because that lets them keep the privilege of your business.</em> </p>
+<p>Increasing development value lets the design firm thrive in the open marketplace. Unlike the in-house team, they don’t work in a vacuum. Mistakes mean loss of business, and exceptional performance means tangible rewards. </p>
+<p>The inherent structural dynamic incentivizes the design firm to operate as <strong>strategists</strong> rather than executors. They take the reins as orchestrators, which allows you to be the owners you&rsquo;re supposed to be.</p>
+<p>Deep marketing strategy understanding increases the value of the development more than any other marketing benefit. </p>
+<h2 id="talent"><strong>TALENT</strong></h2>
+<h3 id="in-house-2">In-house</h3>
+<p><strong>In-house departments have a difficult time attracting talent specific to that domain.</strong></p>
+<p>Specialists know they have a marketable skill and take those skills to places that will reward them. That’s why they work for specialist firms. </p>
+<p>In-house teams save payroll by hiring generalists, student interns, or someone who does design and visuals <em>on the side</em>. Regardless of their background, the department manager might have an MBA but lacks practical knowledge of what makes a development sell. </p>
+<p>This works well for the architectural firm that can rely on the reputation of their architects. But it doesn’t benefit the developer. </p>
+<h3 id="design-firms-2">Design Firms</h3>
+<p><strong>Highly specialized design firms attract highly specialized talent.</strong></p>
+<p>For exactly that reason, developers typically work with a series of specialists, as opposed to one generalist. </p>
+<p>People would rather be part of a firm that specializes in their area of interest rather than work in a small branch of a firm that does something else. When someone dedicates their life toward mastering a specific skill, they naturally gravitate to an organization that puts that skill (and themselves) as a priority. </p>
+<p>Priority in specialization supports the specialist in increasing their skills, earning rewards for that dedication and providing a sense of fulfillment. </p>
+<p>It’s only natural for skilled creatives to opt for a specialty design firm. 
+‍</p>
+<hr>
+<h5 id="like-the-creatives-developers-opting-for-a-specialized-design-firm-will-realize-the-same-benefits-because-when-accounts-get-tallied-in-house-departments-have-no-obligation-to-the-reality-of-the-market"><strong>Like the creatives, developers opting for a specialized design firm will realize the same benefits because when accounts get tallied, in-house departments have no obligation to the reality of the market.</strong></h5>
+]]></content:encoded></item><item><title>About</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/About/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/About/</guid><description>Created: 2023-03-09
+Version: 1.00
+Our Vision</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em></p>
+<p><em>Version</em>: 1.00</p>
+<hr>
+<h1 id="our-vision">Our Vision</h1>
 ]]></content:encoded></item><item><title>callouts</title><link>https://anassawalha95.github.io/garden/notes/callouts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/callouts/</guid><description>Callout support Quartz supports the same Admonition-callout syntax as Obsidian.
 This includes
 12 Distinct callout types (each with several aliases) Collapsable callouts See documentation on supported types and syntax here.</description><content:encoded><![CDATA[<h2 id="callout-support">Callout support</h2>
@@ -849,7 +888,33 @@ attribute, are relative to the <code>static/</code> directory.</p>
 </span></span><span class="line"><span class="cl">    <span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div>]]></content:encoded></item><item><title>custom Domain</title><link>https://anassawalha95.github.io/garden/notes/custom-Domain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/custom-Domain/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
+</div>]]></content:encoded></item><item><title>Contact 🗺️⚛️</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/Contact-%EF%B8%8F%EF%B8%8F/</guid><description>If you would like to get in touch, fill out the form below.
+(Disable graph and backlinks)
+(Add contact form)</description><content:encoded><![CDATA[<p>If you would like to get in touch, fill out the form below.</p>
+<p>(Disable graph and backlinks)</p>
+<p>(Add contact form)</p>
+]]></content:encoded></item><item><title>custom Domain</title><link>https://anassawalha95.github.io/garden/notes/custom-Domain/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/custom-Domain/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
+<p>This step is only applicable if you are using a <strong>custom domain</strong>! If you are using a <code>&lt;YOUR-USERNAME&gt;.github.io</code> domain, you can skip this step.</p>
+<p>For this last bit to take effect, you also need to create a CNAME record with the DNS provider you register your domain with (i.e. NameCheap, Google Domains).</p>
+<p>GitHub has some 
+
+<a target=“_blank” href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" rel="noopener">documentation on this</a>, but the tldr; is to</p>
+<ol>
+<li>
+<p>Go to your forked repository (<code>github.com/&lt;YOUR-GITHUB-USERNAME&gt;/quartz</code>) settings page and go to the Pages tab. Under &ldquo;Custom domain&rdquo;, type your custom domain, then click <strong>Save</strong>.</p>
+</li>
+<li>
+<p>Go to your DNS Provider and create a CNAME record that points from your domain to <code>&lt;YOUR-GITHUB-USERNAME.github.io.</code> (yes, with the trailing period).</p>
+<p><img src="/notes//notes/images/google-domains.png" alt="Example Configuration for Quartz"/><em>Example Configuration for Quartz</em></p>
+</li>
+<li>
+<p>Wait 30 minutes to an hour for the network changes to kick in.</p>
+</li>
+<li>
+<p>Done!</p>
+</li>
+</ol>
+]]></content:encoded></item><item><title>custom Domains</title><link>https://anassawalha95.github.io/garden/notes/custom-Domains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/custom-Domains/</guid><description>Registrar This step is only applicable if you are using a custom domain! If you are using a &amp;lt;YOUR-USERNAME&amp;gt;.github.io domain, you can skip this step.</description><content:encoded><![CDATA[<h3 id="registrar">Registrar</h3>
 <p>This step is only applicable if you are using a <strong>custom domain</strong>! If you are using a <code>&lt;YOUR-USERNAME&gt;.github.io</code> domain, you can skip this step.</p>
 <p>For this last bit to take effect, you also need to create a CNAME record with the DNS provider you register your domain with (i.e. NameCheap, Google Domains).</p>
 <p>GitHub has some 
@@ -996,6 +1061,332 @@ To ignore a specific file, you can also add the tag <code>draft: true</code> to 
 <a target=“_blank” href="https://gohugo.io/getting-started/configuration/#ignore-content-and-data-files-when-rendering" rel="noopener">Hugo&rsquo;s documentation</a>.</p>
 <h3 id="global-ignore">Global Ignore</h3>
 <p>However, just adding to the <code>ignoreFiles</code> will only prevent the page from being access through Quartz. If you want to prevent the file from being pushed to GitHub (for example if you have a public repository), you need to also add the path to the <code>.gitignore</code> file at the root of the repository.</p>
+]]></content:encoded></item><item><title>Insights</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/Insights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/Insights/</guid><description>Created: 2023-03-09 Version: 1.00
+Insights - Types
+Insights - Structure
+Insights - Articles
+Contact 🗺️⚛️</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="..%5cInsights%20-%20Types">Insights - Types</a></p>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="..%5cInsights%20-%20%20%20Structure">Insights -   Structure</a></p>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="..%5cInsights%20-%20Articles">Insights - Articles</a></p>
+<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="Contact%20%F0%9F%97%BA%EF%B8%8F%E2%9A%9B%EF%B8%8F">Contact 🗺️⚛️</a></p>
+<p>*Insights -  Whitepapers *</p>
+]]></content:encoded></item><item><title>Insights - Structure</title><link>https://anassawalha95.github.io/garden/notes/Insights-Structure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Structure/</guid><description/><content:encoded></content:encoded></item><item><title>Insights - Articles</title><link>https://anassawalha95.github.io/garden/notes/Insights-Articles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Articles/</guid><description>Created: 2023-03-10 Version: 1.00
+The Cost of Going Cheap On Visuals
+The Top Questions Developers Must Ask</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>
+
+
+
+
+
+<a
+  href="/notes/The-Cost-of-Going-Cheap-On-Visuals/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Cost-of-Going-Cheap-On-Visuals/">The Cost of Going Cheap On Visuals</a></p>
+<p>
+
+
+
+
+
+<a
+  href="/notes/The-Top-Questions-Developers-Must-Ask/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Top-Questions-Developers-Must-Ask/">The Top Questions Developers Must Ask</a></p>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+</blockquote>
+<hr>
+<blockquote>
+<p><em>2023-03-10</em></p>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-1">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-2">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p><em>2023-03-10</em></p>
+<p>The key differences between an in-house creative department and a design firm.</p>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-3">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p><em>2023-03-10</em></p>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-4">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p><em>2023-03-10</em></p>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-5">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p>By Brando on <em>2023-03-10</em></p>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-6">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<h5 id="the-key-differences-between-an-in-house-creative-department-and-a-design-firm">The key differences between an in-house creative department and a design firm.</h5>
+<p>By Brando on <em>2023-03-10</em></p>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-7">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<h5 id="by-brando-on-2023-03-10">By Brando on <em>2023-03-10</em></h5>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-8">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<h6 id="by-brando-on-2023-03-10-1">By Brando on <em>2023-03-10</em></h6>
+</blockquote>
+<hr>
+<blockquote>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-9">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<h6 id="by-brando-on-2023-03-10-2">By Brando on <em>2023-03-10</em></h6>
+</blockquote>
+<hr>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-10">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<h6 id="by-brando-on-2023-03-10-3">By Brando on <em>2023-03-10</em></h6>
+<hr>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-11">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p>By Brando on <em>2023-03-10</em></p>
+<hr>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-12">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p><em>By Brando on <em>2023-03-10</em></em></p>
+<hr>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-13">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p><strong>By Brando on <em>2023-03-10</em></strong></p>
+<hr>
+<h1 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-14">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h1>
+<p><strong>The key differences between an in-house creative department and a design firm.</strong></p>
+<p>By Brando on <em>2023-03-10</em></p>
+<hr>
+<h2 id="the-problems-with-using-an-in-house-teamthe20problems20with20using20an20in-house20teammd-15">
+
+
+
+
+
+<a
+  href="/notes/The-Problems-With-Using-An-In-house-Team/"
+  rel="noopener" class="internal-link"
+  data-src="/notes/The-Problems-With-Using-An-In-house-Team/">The Problems With Using An In-house Team</a></h2>
+<p>The key differences between an in-house creative department and a design firm.</p>
+<p>By Brando on <em>2023-03-10</em></p>
+<hr>
+]]></content:encoded></item><item><title>Insights - Types</title><link>https://anassawalha95.github.io/garden/notes/Insights-Types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Types/</guid><description>[!abstract] Summaries
+Aliases: abstract, summary, tldr
+[!info] Info
+Aliases: info, todo
+[!question] Question
+Aliases: question, help, faq</description><content:encoded><![CDATA[<blockquote>
+<p>[!abstract] Summaries</p>
+<p>Aliases: abstract, summary, tldr</p>
+</blockquote>
+<blockquote>
+<p>[!info] Info</p>
+<p>Aliases: info, todo</p>
+</blockquote>
+<blockquote>
+<p>[!question] Question</p>
+<p>Aliases: question, help, faq</p>
+</blockquote>
+<blockquote>
+<p>[!warning] Warning</p>
+<p>Aliases: warning, caution, attention</p>
+</blockquote>
+]]></content:encoded></item><item><title>Insights - Whitepapers §§</title><link>https://anassawalha95.github.io/garden/notes/Insights-Whitepapers-/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Insights-Whitepapers-/</guid><description>Created: 2023-03-10 Version: 1.00
+📍</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>📍</p>
 ]]></content:encoded></item><item><title>philosophy</title><link>https://anassawalha95.github.io/garden/notes/philosophy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/philosophy/</guid><description>“[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.</description><content:encoded><![CDATA[<blockquote>
 <p>“[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming</p>
 </blockquote>
@@ -1019,7 +1410,7 @@ To ignore a specific file, you can also add the tag <code>draft: true</code> to 
 
 <a target=“_blank” href="https://joelhooks.com/digital-garden" rel="noopener">Joel</a>&rsquo;s digital gardens and wanted to try making my own.</p>
 <p><strong>The goal of Quartz is to make hosting your own public digital garden free and simple.</strong> You don&rsquo;t even need your own website. Quartz does all of that for you and gives your own little corner of the internet.</p>
-]]></content:encoded></item><item><title>search</title><link>https://anassawalha95.github.io/garden/notes/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/search/</guid><description>Quartz supports two modes of searching through content.
+]]></content:encoded></item><item><title>private-note</title><link>https://anassawalha95.github.io/garden/notes/private-note/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/private-note/</guid><description>This page doesn&amp;rsquo;t get published!</description><content:encoded>&lt;p>This page doesn&amp;rsquo;t get published!&lt;/p></content:encoded></item><item><title>Real Estate Development</title><link>https://anassawalha95.github.io/garden/notes/Real-Estate-Development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Real-Estate-Development/</guid><description/><content:encoded></content:encoded></item><item><title>search</title><link>https://anassawalha95.github.io/garden/notes/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/search/</guid><description>Quartz supports two modes of searching through content.
 Full-text Full-text search is the default in Quartz. It produces results that exactly match the search query.</description><content:encoded><![CDATA[<p>Quartz supports two modes of searching through content.</p>
 <h2 id="full-text">Full-text</h2>
 <p>Full-text search is the default in Quartz. It produces results that <em>exactly</em> match the search query. This is easier to setup but usually produces lower quality matches.</p>
@@ -1067,7 +1458,21 @@ Full-text Full-text search is the default in Quartz. It produces results that ex
 <li>Push your changes to the site and wait for it to deploy.</li>
 <li>Check the Operand dashboard and wait for your site to index. Enjoy natural language search powered by Operand!</li>
 </ol>
-]]></content:encoded></item><item><title>showcase</title><link>https://anassawalha95.github.io/garden/notes/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/showcase/</guid><description>Want to see what Quartz can do? Here are some cool community gardens :)
+]]></content:encoded></item><item><title>Services</title><link>https://anassawalha95.github.io/garden/notes/Gnosis/Services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Gnosis/Services/</guid><description>Created: 2023-03-09 Version: 1.00
+We solve ALL problems.
+Services Market Research
+Creative Orchestration Creative Conducting
+Design through CHRYSALIS. Computer graphics through CENO.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-09</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>We solve ALL problems.</p>
+<h1 id="services">Services</h1>
+<p>Market Research</p>
+<p>Creative Orchestration
+Creative Conducting</p>
+<p>Design through CHRYSALIS.
+Computer graphics through CENO.</p>
+]]></content:encoded></item><item><title>setup</title><link>https://anassawalha95.github.io/garden/notes/setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/setup/</guid><description/><content:encoded></content:encoded></item><item><title>showcase</title><link>https://anassawalha95.github.io/garden/notes/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/showcase/</guid><description>Want to see what Quartz can do? Here are some cool community gardens :)
 Quartz Documentation (this site!) Jacky Zhao&amp;rsquo;s Garden Scaling Synthesis - A hypertext research notebook AWAGMI Intern Notes Shihyu&amp;rsquo;s PKM SlRvb&amp;rsquo;s Site Course notes for Information Technology Advanced Theory Brandon Boswell&amp;rsquo;s Garden Siyang&amp;rsquo;s Courtyard Data Dictionary 🧠 sspaeti.</description><content:encoded><![CDATA[<p>Want to see what Quartz can do? Here are some cool community gardens :)</p>
 <ul>
 <li>
@@ -1116,6 +1521,154 @@ Quartz Documentation (this site!) Jacky Zhao&amp;rsquo;s Garden Scaling Synthesi
 <p>If you want to see your own on here, submit a 
 
 <a target=“_blank” href="https://github.com/jackyzha0/quartz/blob/hugo/content/notes/showcase" rel="noopener">Pull Request adding yourself to this file</a>!</p>
+]]></content:encoded></item><item><title>Sidebar</title><link>https://anassawalha95.github.io/garden/notes/Sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Sidebar/</guid><description>CJK + Latex Support (测试)</description><content:encoded><![CDATA[<p>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="CJK%20&#43;%20Latex%20Support%20%28%E6%B5%8B%E8%AF%95%29">CJK + Latex Support (测试)</a></p>
+]]></content:encoded></item><item><title>Test Private Link</title><link>https://anassawalha95.github.io/garden/notes/Test-Private-Link/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Test-Private-Link/</guid><description>ddd d</description><content:encoded>&lt;p>ddd
+d&lt;/p></content:encoded></item><item><title>The Cost of Going Cheap On Visuals</title><link>https://anassawalha95.github.io/garden/notes/The-Cost-of-Going-Cheap-On-Visuals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/The-Cost-of-Going-Cheap-On-Visuals/</guid><description>Created: 2023-03-10 Version: 1.00
+Have you ever picked the more “affordable” solution, only to regret it later? We see this all the time.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>Have you ever picked the more “affordable” solution, only to regret it later? </p>
+<p><em>We see this all the time.</em> </p>
+<p>A developer initially chose the cheapest option, trying to save money. Then they have to spend more money (even beyond the initial marketing budget) cleaning up the mess made by an inexperienced team.</p>
+<h5 id="when-it-comes-to-visuals-cheap-costs-more">When it comes to visuals, cheap costs more. </h5>
+<p>Most developers know this. But it’s difficult to choose the higher quality option when comparing budget and profit margins. Rarely do they make the correct decision preemptively. </p>
+<p>But what if you literally have NO other options? What if you <em>have</em> to go with a “low budget?”</p>
+<p>While I believe ALL campaigns should return an ample ROI (thus justifying the higher initial investment in a better firm), I also understand that funds may still be scarce and time sparse  — so sometimes you have to make the best with what you got.</p>
+<p>In that case, consider these points when hiring and managing a creative team for the visuals in your marketing campaign. </p>
+<h4 id="quality-over-quantity">Quality over quantity.</h4>
+<p>Clichéd? Yes. But still…</p>
+<p>A premium perception of your development should be the priority. Your ROI will increase by orchestrating two exceptional images rather than ten average images. (Although usually, they end up far below average.)</p>
+<p>The goal is cohesion. No one looks at a single image and decides to buy. They look at the campaign as a whole and buy based on their feeling, which impacts their perception.</p>
+<p>Anything below that premium perception of your development - even a single image - will destroy the feel of your building in the marketing materials. A quality visual storefront for your development creates the perception that the building will also be quality.</p>
+<p>Conversely, when someone looks at cheap marketing materials, they will wonder where else the developer cut corners.</p>
+<p>If you need to show more spaces, then:</p>
+<h4 id="depict-a-clear-message">Depict a clear message.</h4>
+<p>Developers often fall into the trap of “more is better,” cramming as much as possible into each view. It creates the opposite effect of its intention.</p>
+<p>Busy images confuse the viewer with their lack of purpose. The viewer doesn’t know what they are supposed to look at, so information gets lost.</p>
+<p>For example, imagine a commercial office space interior. Are you trying to show a client’s experience walking and getting a good impression of the company? Are you trying to show the technical features of the space? Are you trying to show the internal culture? You can’t have all three AND a compelling view.</p>
+<p>By showing more, you reveal less.</p>
+<p>Each view needs a purpose within the entire campaign.</p>
+<p>If you have a large space requiring more views, then instead:</p>
+<h4 id="utilize-close-ups">Utilize close-ups.</h4>
+<p>You can save money by reducing the content depicted in the scene.</p>
+<p>Rather than display the entire café within an office space, take a close-up of just the kitchenette. Capture the feeling of someone about to enjoy a fresh cup of coffee right before work - the warm sunrise beaming through, the crisp aroma of freshly ground beans, and the tranquil moment before a zestful day of work.</p>
+<p>People buy based on emotion, not features.</p>
+<p>Evoke emotions more effectively through a smaller, more inexpensive view.</p>
+<p>You can then utilize this technique to:</p>
+<h4 id="ensure-image-utilization">Ensure image utilization.</h4>
+<p>Are you familiar with the difference between image quality and image utilization in a marketing campaign? They serve different purposes.</p>
+<p>A single, high-quality exterior rendering of the entire building may look nice initially, but it may not fit cohesively on your project’s homepage or marketing brochure. Typically, you would request a separate view. But if you want to save money while maintaining quality, choose a view that you know will work in ALL consumer touchpoints - e.g., a close-up of the building&rsquo;s façade or a key architectural feature.</p>
+<p>Your marketing materials can then use cropped, zoomed-in, or overlay text on these images without losing its message. It also makes for a powerful intro that sparks the viewer’s curiosity, hooking them into viewing more.</p>
+<p>Ensure this is done preemptively within the initial strategic overview to save the most time, and get the highest ROI.</p>
+<p>‍</p>
+<h5 id="at-the-end-of-the-day-if-you-have-to-go-cheap-concentrate-your-resources-toward-a-single-goal-to-maximize-the-value-of-your-visual-marketing-campaign">At the end of the day, IF you have to go cheap, concentrate your resources toward a single goal to maximize the value of your visual marketing campaign.</h5>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+]]></content:encoded></item><item><title>The Top Questions Developers Must Ask</title><link>https://anassawalha95.github.io/garden/notes/The-Top-Questions-Developers-Must-Ask/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/The-Top-Questions-Developers-Must-Ask/</guid><description>Created: 2023-03-10 Version: 1.00
+The best way to avoid a failed campaign is to prevent it.
+It starts with picking the right firm.</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<p>The best way to avoid a failed campaign is to prevent it.</p>
+<p>It starts with picking the right firm. </p>
+<p>Most creative firms have <em>no idea</em> how the development process actually works. They rarely ask what role they play in the bigger picture. Still, many developers pick their creative firms based on perception rather than logic. That primarily stems from a lack of understanding of exactly what to look for and why. </p>
+<p>This article gives you the framework to sort the good from the bad firms so you can have the most successful campaign possible. </p>
+<p>Note: Stick to the questions in order. They build off of one another, so if you get a “weak” answer early on, moving on to another firm will save you time.</p>
+<h4 id="1-howwillyourserviceincreaseprofit">1. HOW WILL YOUR SERVICE INCREASE PROFIT?</h4>
+<p>From the outside, it may seem like it&rsquo;s an obvious and natural topic to discuss — especially if you come from the business world.</p>
+<p>However, in the creative world, creatives have challenges with the stigma around money. While the professionals who make careers in marketing move past it, a lack of comfort discussing profits indicates their level of experience (and likely competency) within the industry. </p>
+<h5 id="qualities-of-a-weak-answer">Qualities of a weak answer:</h5>
+<ul>
+<li>Uncomfortable speaking about money.</li>
+</ul>
+<p>Those who have money have no problems speaking about it - and if they have money, they must be a successful firm. That’s the compensation for the value they provide to the marketplace.</p>
+<ul>
+<li>Will defer to quality.</li>
+</ul>
+<p>Generally, a firm that answers questions about profit with quality will give you nothing but execution. Execution alone does not make a successful campaign. Most anyone can execute an idea. The work itself does not increase the profitability of your project.</p>
+<h5 id="qualities-of-a-strong-answer">Qualities of a strong answer:</h5>
+<ul>
+<li>They can show you past results</li>
+</ul>
+<p>Any good firm knows <em>exactly</em> how they produce results within the bigger picture of a project. They likely built their service <em>directly</em> upon those results - rather than on quality alone.</p>
+<h4 id="2-how-will-your-service-save-us-time"><strong>2. HOW WILL YOUR SERVICE SAVE US TIME?</strong></h4>
+<p>This question looks for the processes the firm has in place to make the service more effective for YOU. This can be through specific communication systems, review systems, and reports. </p>
+<p>E.g. Will they reduce meeting times? Will they make it easier for your to communicate with other shareholders?</p>
+<p>These processes and procedures should back up the results stated in the first question.</p>
+<h5 id="qualities-of-a-weak-answer-1">Qualities of a weak answer:</h5>
+<ul>
+<li>A &lsquo;similar&rsquo; process to the rest of the industry.</li>
+</ul>
+<p>This alone isn&rsquo;t bad. However, it just means you&rsquo;ll likely get a product that&rsquo;s the same as your competitors.</p>
+<ul>
+<li>A process that focuses on <em>their</em> work.</li>
+</ul>
+<p>Similar to the last question, if they are focusing on <em>their</em> work and internal system, you know that they optimized for results in <em>their</em> process, not yours. An effective system focuses on the end goal <em>first</em> then works backward to figure out how to achieve that — achieve the best efficiency for YOU, not for them.</p>
+<ul>
+<li>Complex and difficult to explain.</li>
+</ul>
+<p>No truly effective system is complex. If the firm can&rsquo;t explain it simply to you, they don&rsquo;t have an effective system.</p>
+<h5 id="qualities-of-a-strong-answer-1">Qualities of a strong answer:</h5>
+<ul>
+<li>Definitive process with clear measurable results.</li>
+</ul>
+<p>Exact stats, metrics, and processes ensure with a high probability of success for the project.</p>
+<ul>
+<li>Examples of a proven process that worked with previous clients.</li>
+</ul>
+<p>A proven process may not strictly necessary. Working through a new system logically can ensure success, especially if your project offers unique scheduling or design challenges. </p>
+<p>However, a marketplace-tested system adds an extra layer of comfort. Note that price should be adjusted accordingly based on risk. So if it hasn’t been tested, their cost should be much lower. </p>
+<ul>
+<li>Clear timelines.</li>
+</ul>
+<p>More complex campaigns with more firms involved (particularly who have dependencies on key deliverables) make specific timelines especially important.</p>
+<h4 id="3-whats-your-strategy-for-the-project"><strong>3. WHAT&rsquo;S YOUR STRATEGY FOR THE PROJECT?</strong></h4>
+<p>You would think having a strategy would be more common. </p>
+<p>Most firms think they have one. Some firms have one for themselves. Very few firms have one for you and for the biggest picture of the project. </p>
+<h5 id="qualities-of-a-weak-answer-2">Qualities of a weak answer:</h5>
+<ul>
+<li>Actually giving a response.</li>
+</ul>
+<p>The challenge with this question lies in an inability to answer it without <em>knowing the</em> objectives of the project. Even if the answer seems obvious, a firm cannot make good decisions without the preliminary processes completed. The same way a doctor asks you questions regardless of the apparent symptoms. </p>
+<h5 id="qualities-of-a-strong-answer-2">Qualities of a strong answer:</h5>
+<ul>
+<li>Will set up an intentional call to go over it further.</li>
+</ul>
+<p>Good firms will have a specific system in place to generate the strategy based on your <em>specific</em> project.</p>
+<h4 id="4-how-will-your-service-help-us-long-term"><strong>4. HOW WILL YOUR SERVICE HELP US LONG-TERM?</strong></h4>
+<p>Once you determine that the firm focuses on making you money, can effectively diagnose your problems, and have a clear process for achieving your goals, you can now ask this “trick” question. </p>
+<p>It catches firms off-guard. Most project requirements don’t focus on long-term goals - as it’s not within the scope. However, a good firm becomes great when they can explain how they’ll help long-term. It classifies them as the one you ought to be working with for a long time. </p>
+<p>It signifies that they truly focus on helping <em>you</em> and <em>your</em> project. </p>
+<h5 id="qualities-of-a-weak-answer-3">Qualities of a weak answer:</h5>
+<ul>
+<li>They haven&rsquo;t thought about it.</li>
+</ul>
+<p>Understand that this is <em>most</em> firms. Rarely do firms care about the impact of their work beyond the scope of delivery. If this is the case, ensure you have a system in place internally to ensure the product&rsquo;s utilization within your future touchpoints. E.g. How will the marketing team or the branding team use the renderings?</p>
+<h5 id="qualities-of-a-strong-answer-3">Qualities of a strong answer:</h5>
+<ul>
+<li>They&rsquo;ll have real-life case studies.</li>
+</ul>
+<p>This ensures consistency of effective delivery over a broad range of different projects.</p>
+<ul>
+<li>They&rsquo;ll have a separate service in place for this.</li>
+</ul>
+<p>All great firms should have a process in place for post-delivery utilization and optimization. After all, what&rsquo;s the use of creating a phenomenal product if it&rsquo;s not utilized effectively?</p>
+<p>‍</p>
+<h5 id="if-theyve-answered-all-these-questions-in-a-strong-fashion-you-can-be-confident-that-this-firm-thinks-beyond-themselves-and-will-be-a-good-investment-for-you">If they&rsquo;ve answered all these questions in a &lsquo;strong&rsquo; fashion, you can be confident that this firm thinks beyond themselves and will be a good investment for you. </h5>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
 ]]></content:encoded></item><item><title>troubleshooting</title><link>https://anassawalha95.github.io/garden/notes/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/troubleshooting/</guid><description>Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.
 While you&amp;rsquo;re here, join our Discord :)</description><content:encoded><![CDATA[<p>Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.</p>
 <p>While you&rsquo;re here, join our 
@@ -1198,12 +1751,12 @@ While you&amp;rsquo;re here, join our Discord :)</description><content:encoded><
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># Add the following 2 lines to your ~/.bash_profile (~/.zshrc if you are on Mac)</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># Add the following 2 lines to your ~/.bash_profile</span>
 </span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">GOPATH</span><span class="o">=</span>/Users/<span class="nv">$USER</span>/go
 </span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$GOPATH</span>/bin:<span class="nv">$PATH</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># In your current terminal, to reload the session</span>
-</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.bash_profile <span class="c1"># again, (~/.zshrc if you are on Mac)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">source</span> ~/.bash_profile
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="how-come-my-notes-arent-being-rendered">How come my notes aren&rsquo;t being rendered?</h3>
@@ -1334,4 +1887,58 @@ Make sure you have a copy of these changes if you don&rsquo;t want to lose them.
 </span></span><span class="line"><span class="cl">git checkout -p upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data 
 </span></span></code></pre></td></tr></table>
 </div>
-</div>]]></content:encoded></item></channel></rss>
+</div>]]></content:encoded></item><item><title>updatingsd</title><link>https://anassawalha95.github.io/garden/notes/updatingsd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/updatingsd/</guid><description>Haven&amp;rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update!</description><content:encoded><![CDATA[<p>Haven&rsquo;t updated Quartz in a while and want all the cool new optimizations? On Unix/Mac systems you can run the following command for a one-line update! This command will show you a log summary of all commits since you last updated, press <code>q</code> to acknowledge this. Then, it will show you each change in turn and press <code>y</code> to accept the patch or <code>n</code> to reject it. Usually you should press <code>y</code> for most of these unless it conflicts with existing changes you&rsquo;ve made!</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">make update
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or, if you don&rsquo;t want the interactive parts and just want to force update your local garden (this assumed that you are okay with some of your personalizations been overriden!)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">make update-force
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or, manually checkout the changes yourself.</p>
+<blockquote>
+<p>[!warning] Warning!</p>
+<p>If you customized the files in <code>data/</code>, or anything inside <code>layouts/</code>, your customization may be overwritten!
+Make sure you have a copy of these changes if you don&rsquo;t want to lose them.</p>
+</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># add Quartz as a remote host</span>
+</span></span><span class="line"><span class="cl">git remote add upstream git@github.com:jackyzha0/quartz.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># index and fetch changes</span>
+</span></span><span class="line"><span class="cl">git fetch upstream
+</span></span><span class="line"><span class="cl">git checkout -p upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data 
+</span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded></item><item><title>Website Taxonomy</title><link>https://anassawalha95.github.io/garden/notes/Website-Taxonomy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://anassawalha95.github.io/garden/notes/Website-Taxonomy/</guid><description>Created: 2023-03-10 Version: 1.00
+Symbols 🗺️ = Database
+📍 = Sub Database
+📔 = Books
+👤 = People</description><content:encoded><![CDATA[<p><em>Created</em>: <em>2023-03-10</em>
+<em>Version</em>: 1.00</p>
+<hr>
+<h1 id="symbols">Symbols</h1>
+<p>🗺️ = Database</p>
+<p>📍 = Sub Database</p>
+<p>📔 = Books</p>
+<p>👤 = People</p>
+]]></content:encoded></item></channel></rss>
