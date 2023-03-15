@@ -10,7 +10,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
 
   const curPage = cleanUrl.replace(/\/$/g, "").replace(baseUrl, "")
 
-  const parseIdsFromLinks = (links) =>  [
+  const parseIdsFromLinks = (links) => [
     ...new Set(links.flatMap((link) => [link.source, link.target])),
   ]
 
@@ -161,7 +161,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .on("click", (_, d) => {
       // SPA navigation
       const targ = `${baseUrl}${decodeURI(d.id).replace(/\s+/g, "-")}/`
-      console.log(targ)
+
       window.Million.navigate(new URL(targ), ".singlePage")
       plausible("Link Click", {
         props: {
